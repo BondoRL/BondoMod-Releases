@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.1.99",
-  "minimumVersion": "0.1.99",
+  "version": "0.1.100",
+  "minimumVersion": "0.1.100",
   "required": false,
-  "publishedAt": "2026-09-18T16:28:07.6017700Z",
-  "notes": "### BondoMod v0.1.99\n\n- Fixed corrupted match statistics when using spawned items.\n- Improved Item Spawn stability across launches, matches, goals, and menu returns.\n- Prevented harmless local connection checks from disconnecting BondoSpawner.\n- Item Spawn now leaves the Windows system proxy disabled for better ping and Epic connectivity.\n- Discord login now retries temporary connection failures and shows a clear error instead of `fetch failed`.\n- Improved recovery for Steam and Epic Games connection failures.\n\nSome bugs may still occur. Please report them immediately so they can be fixed.",
+  "publishedAt": "2026-09-18T18:33:42.1890820Z",
+  "notes": "### BondoMod v0.1.100\n\n- Fixed spawned items resetting when joining a match or after scoring a goal.\n- Fixed painted cars and goal explosions being replaced by the server loadout.\n- Fixed corrupted match statistics such as negative demo counts.\n- Improved live loadout detection without affecting ping or other players.\n\nSome bugs may still occur. Please report them immediately so they can be fixed.",
   "artifact": {
-    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.99/bondo-mod-0.1.99-x64.nsis.7z",
-    "fileName": "bondo-mod-0.1.99-x64.nsis.7z",
-    "size": 207477421,
-    "sha256": "3b53be47651143f61f3975dfbe4a0e8da278f520208fe4d321d5aa7cb4fb17cb"
+    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.100/bondo-mod-0.1.100-x64.nsis.7z",
+    "fileName": "bondo-mod-0.1.100-x64.nsis.7z",
+    "size": 207448847,
+    "sha256": "a95a1f2cb9d6e24c06dc4a9eaba0f7f7438a8c05f949ba4bd2e2de40d8dcd08e"
   },
   "installer": {
-    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.99/BondoMod-Installer.exe",
+    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.100/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 44544,
-    "sha256": "06285afbad9a122a4ca4a28480dd6414a30e15ab4eb4df8ac47a4a42364dd43e"
+    "sha256": "d2395eaa1c11c9539ccc6db0ec07a38e60a4d74e7cc9c275143cf3397639ee3f"
   },
   "setup": {
-    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.99/BondoMod-Setup-0.1.99.exe",
-    "fileName": "BondoMod-Setup-0.1.99.exe",
-    "size": 698565,
-    "sha256": "fe9e0e8fb7aebcff5d3b01845faca05e3088e3f0ed8bac64b2ec18cfb9e00edc"
+    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.100/BondoMod-Setup-0.1.100.exe",
+    "fileName": "BondoMod-Setup-0.1.100.exe",
+    "size": 698645,
+    "sha256": "b05a56feb56978cc2ed329c4c27dd46693c565bcb0159f5ae097743500a6161d"
   },
-  "signature": "Z6+BXAvE4n9hwgZjv2w5l7AZxV/4H9Hu+Qyjm8HBNx6gfiIITe4jAL65wCa80TiDpovzfMbbsQvPegJkx9BABA=="
+  "signature": "CCWWGtvsv72IIA/HwExo8vpaio7o92p8OM5U1PaPknWiH6M3O/1z+wz8SIAf4n+C4znOqIRxomyGTlLv4/vbCQ=="
 }
