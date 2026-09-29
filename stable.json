@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.1.100",
-  "minimumVersion": "0.1.100",
-  "required": false,
-  "publishedAt": "2026-09-18T18:33:42.1890820Z",
-  "notes": "### BondoMod v0.1.100\n\n- Fixed spawned items resetting when joining a match or after scoring a goal.\n- Fixed painted cars and goal explosions being replaced by the server loadout.\n- Fixed corrupted match statistics such as negative demo counts.\n- Improved live loadout detection without affecting ping or other players.\n\nSome bugs may still occur. Please report them immediately so they can be fixed.",
+  "version": "0.1.101",
+  "minimumVersion": "0.1.101",
+  "required": true,
+  "publishedAt": "2026-09-29T13:48:33.2575008Z",
+  "notes": "### BondoMod 0.1.101\n\n- BondoMod is currently offline. Join the Discord and wait for the next update.\n- The retired beta no longer starts game integrations.",
   "artifact": {
-    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.100/bondo-mod-0.1.100-x64.nsis.7z",
-    "fileName": "bondo-mod-0.1.100-x64.nsis.7z",
-    "size": 207448847,
-    "sha256": "a95a1f2cb9d6e24c06dc4a9eaba0f7f7438a8c05f949ba4bd2e2de40d8dcd08e"
+    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.101/bondo-mod-0.1.101-x64.nsis.7z",
+    "fileName": "bondo-mod-0.1.101-x64.nsis.7z",
+    "size": 162796508,
+    "sha256": "119420d53f050bdf9fbc34d6e328812380836356bd884cf1ab2ca92b174cb3d9"
   },
   "installer": {
-    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.100/BondoMod-Installer.exe",
+    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.101/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
-    "size": 44544,
-    "sha256": "d2395eaa1c11c9539ccc6db0ec07a38e60a4d74e7cc9c275143cf3397639ee3f"
+    "size": 44032,
+    "sha256": "fa8d4f68190c90ce08b0fd16a75bb388b1e221a82778f0761c8b0c01460efcea"
   },
   "setup": {
-    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.100/BondoMod-Setup-0.1.100.exe",
-    "fileName": "BondoMod-Setup-0.1.100.exe",
-    "size": 698645,
-    "sha256": "b05a56feb56978cc2ed329c4c27dd46693c565bcb0159f5ae097743500a6161d"
+    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.1.101/BondoMod-Setup-0.1.101.exe",
+    "fileName": "BondoMod-Setup-0.1.101.exe",
+    "size": 698599,
+    "sha256": "6f994467c2bc906db101321e53aa48e1ebc49e6a896ac0a0a0babc884ee86bbf"
   },
-  "signature": "CCWWGtvsv72IIA/HwExo8vpaio7o92p8OM5U1PaPknWiH6M3O/1z+wz8SIAf4n+C4znOqIRxomyGTlLv4/vbCQ=="
+  "signature": "ya9+8/mY84/cLzV47pqWaDEzGh86FEuQ2TFqnlQFUgY0QRGKcmg9ny56l6eRePxxTucJUgCaKCF1Wmr9fO/nDg=="
 }
