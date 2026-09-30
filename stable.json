@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.0",
-  "minimumVersion": "0.2.0",
+  "version": "0.2.1",
+  "minimumVersion": "0.2.1",
   "required": true,
-  "publishedAt": "2026-09-29T19:00:28.5226865Z",
-  "notes": "# BondoMod 0.2.0\n\n- Restores the app after the 0.1.101 offline notice.\n- Introduces a required three-step welcome guide for the release, plugin ZIP installation and account options.\n- Checks for a signed update before opening the app, and shows download progress when a newer version is required.\n- Keeps a fresh installation signed out with the item spawner inactive.\n- Moves the close button in the BondoMod Plus unlocked dialog away from its title.\n- Removes the Name Changer free announcement.\n- Includes the current signed plugin ZIP packages for installation through the app.\n\nDownload plugins separately from the BondoMod website.",
+  "publishedAt": "2026-09-30T15:57:29.6751101Z",
+  "notes": "# BondoMod 0.2.1\n\n- Refreshes the Windows desktop and Start Menu shortcuts during updates so they use the current BondoMod icon.\n- Updates release links after the GitHub account name change.\n- New installations start in Clean UI with the green and black BondoMod colors.\n- Onboarding has Back navigation, simpler visuals, and can be reopened in Settings.",
   "artifact": {
-    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.2.0/bondo-mod-0.2.0-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.0-x64.nsis.7z",
-    "size": 207745171,
-    "sha256": "93c1ff51ea8e91417363456e41cd02b6481aaba528d904cadc0e8d34f6f6c9c2"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.1/bondo-mod-0.2.1-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.1-x64.nsis.7z",
+    "size": 207757527,
+    "sha256": "285f25eea4bbe4eb8f545571c66a7d6d1c83dd16aa2d5b3e1e78c45b7ddbf8cb"
   },
   "installer": {
-    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.2.0/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.1/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "436bf3412f1251e0799643bcb54132df1ff719f4d741e52a20eaf9605f187b7d"
+    "sha256": "677dcc73679caaf5c69299558052062bbff9e0dc003623e2b89fa232b74d4ae8"
   },
   "setup": {
-    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.2.0/BondoMod-Setup-0.2.0.exe",
-    "fileName": "BondoMod-Setup-0.2.0.exe",
-    "size": 796328,
-    "sha256": "35dbe4e4136da57fbd33a34bf8095731789871d2f02f9b824a0c39aa5c2217d3"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.1/BondoMod-Setup-0.2.1.exe",
+    "fileName": "BondoMod-Setup-0.2.1.exe",
+    "size": 796293,
+    "sha256": "8a167b9e5aab4319d6ec23fdb2f661cb91856d3e363d885ae9a5cd2819b1a628"
   },
-  "signature": "EhxF2e01U7JLgfKzcRhDvKRTjTp8DFY1hwFMLBsTUicTFzNQ2Payq386/GEcomj5myBetO9jtSkKIWuGFKdJBA=="
+  "signature": "cj2JXE1PrgREc3xfRFxcQoK1MBv8HwP7XS4RxbUZtg5RibQoXnKgrYlbS+tNLqEvGLeYSrJUnwZj6+EyW394BQ=="
 }
