@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.1",
-  "minimumVersion": "0.2.1",
+  "version": "0.2.2",
+  "minimumVersion": "0.2.2",
   "required": true,
-  "publishedAt": "2026-09-30T15:57:29.6751101Z",
-  "notes": "# BondoMod 0.2.1\n\n- Refreshes the Windows desktop and Start Menu shortcuts during updates so they use the current BondoMod icon.\n- Updates release links after the GitHub account name change.\n- New installations start in Clean UI with the green and black BondoMod colors.\n- Onboarding has Back navigation, simpler visuals, and can be reopened in Settings.",
+  "publishedAt": "2026-09-30T16:50:23.2331831Z",
+  "notes": "# BondoMod 0.2.2\n\n- Fixes the Add Plugin, sign-in and account dialogs being clipped by the Clean UI sidebar.\n- Removes the Show onboarding again button.\n- Keeps the green and black Clean UI design with a static background.\n- This release resets local accounts, settings, installed plugins and BondoMod clip files once. Accounts on the server are preserved; sign in again after onboarding and reinstall the plugins you want.\n- Packages the rebuilt bridge tested with Dev Boost remaining equipped after a goal.\n- Hardens production update verification against environment overrides and reduces bridge log disk work.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.1/bondo-mod-0.2.1-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.1-x64.nsis.7z",
-    "size": 207757527,
-    "sha256": "285f25eea4bbe4eb8f545571c66a7d6d1c83dd16aa2d5b3e1e78c45b7ddbf8cb"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.2/bondo-mod-0.2.2-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.2-x64.nsis.7z",
+    "size": 207757354,
+    "sha256": "0169aa5687452e89e2d1f07e79cdd2693d05b3d600e31e9bf92611916e545c80"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.1/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.2/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
     "sha256": "677dcc73679caaf5c69299558052062bbff9e0dc003623e2b89fa232b74d4ae8"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.1/BondoMod-Setup-0.2.1.exe",
-    "fileName": "BondoMod-Setup-0.2.1.exe",
-    "size": 796293,
-    "sha256": "8a167b9e5aab4319d6ec23fdb2f661cb91856d3e363d885ae9a5cd2819b1a628"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.2/BondoMod-Setup-0.2.2.exe",
+    "fileName": "BondoMod-Setup-0.2.2.exe",
+    "size": 796298,
+    "sha256": "3f9343e7aad45c02ffc78c8f30f63a693d5c8428de542c3d045c7c06baf500c3"
   },
-  "signature": "cj2JXE1PrgREc3xfRFxcQoK1MBv8HwP7XS4RxbUZtg5RibQoXnKgrYlbS+tNLqEvGLeYSrJUnwZj6+EyW394BQ=="
+  "signature": "DAvsRq6IfsI8UFCXWVJFVJrSrVqd4hwRS8m54iLHWar4kuQ3xJBdaKTC//2mbvnQmHZT/GPTAOJPVuhm+9vhCg=="
 }
