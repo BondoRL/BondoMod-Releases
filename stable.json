@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.3",
-  "minimumVersion": "0.2.3",
+  "version": "0.2.4",
+  "minimumVersion": "0.2.4",
   "required": true,
-  "publishedAt": "2026-10-01T17:30:56.6899019Z",
-  "notes": "- Fixed proxy and HTTPS cleanup, including BondoMod certificates in additional Windows certificate stores and leftover network helpers.\n- Item Spawn stops and removes its network hooks when Rocket League closes, and resumes with the next game launch.\n- Updates disable Item Spawn and complete network cleanup before running the installer.\n- Fixed the shared Item Spawn / Name Changer connection check when the Titles plugin is not installed.\n- Titles is temporarily unavailable and displays â€œDeveloping in progressâ€.\n\nAfter removing proxies while Rocket League is running, restart the game to reconnect to online services.",
+  "publishedAt": "2026-10-03T10:39:16.5322471Z",
+  "notes": "# BondoMod 0.2.4\n\n- Item Spawner connects only when Rocket League is started with Launch RL in BondoMod.\n- Network hooks are removed and verified when Rocket League closes, during updates and on uninstall.\n- Updates disable the spawner and verify cleanup before the next session.\n- Saved items load silently without repeating the item-unlock animation.\n- Added an update message and refreshed What's new.\n- Clean UI is the available interface. Titles and UI customization remain in development.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.3/bondo-mod-0.2.3-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.3-x64.nsis.7z",
-    "size": 207705280,
-    "sha256": "edafb385a1439440036eaae469e34842b69b083ecd8d04704246c6fa66115b9a"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.4/bondo-mod-0.2.4-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.4-x64.nsis.7z",
+    "size": 207720958,
+    "sha256": "aa20aa941f6953fc7017470209109bd2ae58fc03beaed28c79cce810abeaabc3"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.3/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.4/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "c6b2978e5f5284b42176fa659e68af59e252605a349a4f881983c35e2e326f23"
+    "sha256": "ca1c7090361af0ebcea89a0c349286b0ed762a1424f1496954fc79e4d763727f"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.3/BondoMod-Setup-0.2.3.exe",
-    "fileName": "BondoMod-Setup-0.2.3.exe",
-    "size": 796372,
-    "sha256": "8406db6f1e728f24124cd8e24d2b2361187d3bc43058b8714da39874ee2b6ceb"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.4/BondoMod-Setup-0.2.4.exe",
+    "fileName": "BondoMod-Setup-0.2.4.exe",
+    "size": 796719,
+    "sha256": "de43d4e04e46735c59639c4a69c96867b81e8ecc2f566a6234f94fddcffa013c"
   },
-  "signature": "9SPenJBXDo78x4stOfeYVm0w6s/HKxZoce3kt7TW0AzMDUnDDFLG+4yoVFYYoR7mfqQfmTA933yHK2sr9UddDg=="
+  "signature": "BBWStpPYtoNQg1vh8Dw9n+bsbr4pRoo86Q+N/7DIjuq/HOpNON/954ehlQ3M4cZuXzGwOBpdp0NEJKD0qTCpBQ=="
 }
