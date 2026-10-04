@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.6",
-  "minimumVersion": "0.2.6",
+  "version": "0.2.7",
+  "minimumVersion": "0.2.7",
   "required": true,
-  "publishedAt": "2026-10-04T10:46:13.4751380Z",
-  "notes": "# BondoMod 0.2.6\n\n- Limited cosmetic packet processing to prevent repeated long forwarding delays. When processing exceeds its time budget, original game packets continue through the existing connection.\n- Moved network diagnostic logging into a bounded background queue.\n- Limited retained match encryption contexts and prioritized the newest context.\n- The uninstaller now carries its own network recovery helper and dependencies, instead of relying on files in the installed app folder.\n- Network cleanup is still verified before uninstall completes.\n- Fixed enabling Item Spawn with a legacy shortcut that conflicts with the main menu. Switch messages now appear directly below the switch.\n- Titles remain in development.\n- Added voluntary diagnostic reports in Settings, with a full preview, explicit consent and deletion controls. Reports can be viewed in the protected website Admin Place.",
+  "publishedAt": "2026-10-04T11:37:06.5979519Z",
+  "notes": "# BondoMod 0.2.7\n\n- Fixed item and colour resets caused by the ping protection.\n- Faster match data processing without blocking the connection.\n- Removed the manual proxy/HTTPS cleanup button from Settings. Automatic cleanup during updates, game shutdown and uninstall remains active.\n- Support diagnostics remain available.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.6/bondo-mod-0.2.6-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.6-x64.nsis.7z",
-    "size": 207727621,
-    "sha256": "f7fab2715b0c264118e3adb1d0ff52d5dfd0a16acbda4e05154eab47a7db293a"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.7/bondo-mod-0.2.7-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.7-x64.nsis.7z",
+    "size": 207744524,
+    "sha256": "f9bf096049f846f18e388c752a95b68486a0f8d88c70e75201678d3f2a29b5d8"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.6/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.7/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "784fb9602202287422c3ab93f2986c47771a4f1c3e59ad18afd094712a404e92"
+    "sha256": "c7947ad33f611ed28afdbdccbbdabb308960c98251a6ddf6f3af3ea2de2b6b28"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.6/BondoMod-Setup-0.2.6.exe",
-    "fileName": "BondoMod-Setup-0.2.6.exe",
-    "size": 2959144,
-    "sha256": "0649032ce2c43b17d7b01b53f0f2c1645f02518ba686f46c8a0688460cd1d9a4"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.7/BondoMod-Setup-0.2.7.exe",
+    "fileName": "BondoMod-Setup-0.2.7.exe",
+    "size": 2960339,
+    "sha256": "da418e54ae893ec25c3aab4db33f6dead1aa6562dece721accfc845b6f23fe25"
   },
-  "signature": "YvKd1nzbFQJcQCMqijblbc77TfCUdMh/0W+BegsjgXZlUCtwTbPhP3fp8OFjrgi8Aa0+LvRRsqrvLJuBDNedAQ=="
+  "signature": "0aaj+Dp9/Ct8IpuovVF+mXuvAMguhurJ835E/nVLlPbKihGznjiNNtKoKAfB1VBLFWHnjWfNGHBMNzkLxZzQDw=="
 }
