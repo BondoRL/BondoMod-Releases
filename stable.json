@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.7",
-  "minimumVersion": "0.2.7",
+  "version": "0.2.8",
+  "minimumVersion": "0.2.8",
   "required": true,
-  "publishedAt": "2026-10-04T11:37:06.5979519Z",
-  "notes": "# BondoMod 0.2.7\n\n- Fixed item and colour resets caused by the ping protection.\n- Faster match data processing without blocking the connection.\n- Removed the manual proxy/HTTPS cleanup button from Settings. Automatic cleanup during updates, game shutdown and uninstall remains active.\n- Support diagnostics remain available.",
+  "publishedAt": "2026-10-04T14:04:39.9508327Z",
+  "notes": "# BondoMod 0.2.8\n\n- Fixed missing colour retention when the first match loadout is discovered in the background.\n- Preserved that initial colour state when paint recognition finishes later.\n- Fixed the updater selecting a runtime path inside the app archive. Incomplete installations still require repair.\n- Added colour recognition, saved paint state and recovery details to voluntary support reports.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.7/bondo-mod-0.2.7-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.7-x64.nsis.7z",
-    "size": 207744524,
-    "sha256": "f9bf096049f846f18e388c752a95b68486a0f8d88c70e75201678d3f2a29b5d8"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.8/bondo-mod-0.2.8-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.8-x64.nsis.7z",
+    "size": 207725822,
+    "sha256": "5ffdf37f2e2d798ca5dec3365f78b9af46a9df9c7e80b341244077499f71fac2"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.7/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.8/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "c7947ad33f611ed28afdbdccbbdabb308960c98251a6ddf6f3af3ea2de2b6b28"
+    "sha256": "783c9e5252c6e50a928ea905477af76237b3a02ee9029623fd8c0c7accaee03f"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.7/BondoMod-Setup-0.2.7.exe",
-    "fileName": "BondoMod-Setup-0.2.7.exe",
-    "size": 2960339,
-    "sha256": "da418e54ae893ec25c3aab4db33f6dead1aa6562dece721accfc845b6f23fe25"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.8/BondoMod-Setup-0.2.8.exe",
+    "fileName": "BondoMod-Setup-0.2.8.exe",
+    "size": 2961553,
+    "sha256": "33301beab21a8e66aa2a11a8e85cb330fbe069a60144035c3774ef9b42ef9b8c"
   },
-  "signature": "0aaj+Dp9/Ct8IpuovVF+mXuvAMguhurJ835E/nVLlPbKihGznjiNNtKoKAfB1VBLFWHnjWfNGHBMNzkLxZzQDw=="
+  "signature": "iABaEGDXwwO6ymmytUhrQ0tDYdXsyzTkZ3GMoo+tmdi3G8X8hRwMm93jo7yANorcjZGc7zoPvtdM5VpDy9rIDQ=="
 }
