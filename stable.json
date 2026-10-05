@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.10",
-  "minimumVersion": "0.2.10",
+  "version": "0.2.11",
+  "minimumVersion": "0.2.11",
   "required": false,
-  "publishedAt": "2026-10-05T15:52:02.3992455Z",
-  "notes": "# BondoMod v0.2.10\n\n- Detect validated Rocket League installations on Steam, Epic Games and Heroic, including custom locations on other drives.\n- Confirm the detected EXE and CookedPCConsole folder once after updating. Detect again or select both paths manually in Settings.\n- Remove the previous update announcement and connection apology screens.\n- Fix equipped presets with fewer than five items and retain learned item recovery for duplicate match reservations.\n- Keep important recognition and recovery details in support reports.\n\nThe spawner fixes passed automated regression tests; the two reported user cases still need confirmation on their PCs. Owned RLCS / Esports decals may still reset spawned item colours after a goal. Use a normal or spawned decal if affected.",
+  "publishedAt": "2026-10-05T16:35:33.9545978Z",
+  "notes": "# BondoMod v0.2.11\n\n- Correct the first verified local match loadout before forwarding it, instead of discovering it after the game has received the stock preset.\n- Give initial recognition its own bounded processing budget. Retain local-player validation and ordered forwarding; packets without a verified match remain unchanged.\n- Automatically send limited support reports for persistent match recognition failures, missing painted-item baselines and spawner runtime errors while signed in. Disable automatic reports in Settings.\n- Queue reports offline, retry at most once per 15 minutes and group repeated errors for an hour.\n- Include equipped cosmetic IDs by slot, parser progress, candidate counts and matching thresholds in support reports. Credentials, IP addresses, paths and packet contents are excluded.\n\nRegression tests cover a reset on match entry and a reset after a goal. Resolution of the reported user cases still needs confirmation on the affected PC; unsupported loadout formats can still prevent recognition. Owned RLCS / Esports decals may still reset spawned item colours after a goal.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.10/bondo-mod-0.2.10-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.10-x64.nsis.7z",
-    "size": 207746832,
-    "sha256": "282430ef102be9e1c364e78c47f77de1bfc57587eafa24341f55683dd1e4541a"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.11/bondo-mod-0.2.11-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.11-x64.nsis.7z",
+    "size": 207745261,
+    "sha256": "fe534328e993f53e836c73445044f4b70334a5b1c7b69bb2d818f7121abb8caf"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.10/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.11/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "5971afc3988122d3ae6f0ad03a6956c9432e53b27a856997cacdcdb6d24e144f"
+    "sha256": "95a51e20e85dac45c5b6104f0c307eabf91186990b60c8dfd5e75fba222434ea"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.10/BondoMod-Setup-0.2.10.exe",
-    "fileName": "BondoMod-Setup-0.2.10.exe",
-    "size": 5146759,
-    "sha256": "df0687c82941b2b9c3b7f99fe30fc7e229899ce7ebe4dbf5d262e93cb58d8094"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.11/BondoMod-Setup-0.2.11.exe",
+    "fileName": "BondoMod-Setup-0.2.11.exe",
+    "size": 5148950,
+    "sha256": "5758fb21c2c92777167f577aa8ee2a581832bda5d7df0336378dfd6fa438825e"
   },
-  "signature": "wmasIYaFfgs8VsbZTcfh7HmOR0uEgKeSnndQYcj1XKeLsN1i9UHxCjJRpcnPM9PcY7bslfFeWfZm9i//Dt75Aw=="
+  "signature": "s9KuJVQlNoPjuUzZLcGHJJxWN6+bgYJG9Ask9Rg42P1E6LQ/+57lPza7vjxzv5A+xi3dUhCdhFNgKqJwwSxiDA=="
 }
