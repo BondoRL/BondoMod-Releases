@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.11",
-  "minimumVersion": "0.2.11",
+  "version": "0.2.12",
+  "minimumVersion": "0.2.12",
   "required": false,
-  "publishedAt": "2026-10-05T16:35:33.9545978Z",
-  "notes": "# BondoMod v0.2.11\n\n- Correct the first verified local match loadout before forwarding it, instead of discovering it after the game has received the stock preset.\n- Give initial recognition its own bounded processing budget. Retain local-player validation and ordered forwarding; packets without a verified match remain unchanged.\n- Automatically send limited support reports for persistent match recognition failures, missing painted-item baselines and spawner runtime errors while signed in. Disable automatic reports in Settings.\n- Queue reports offline, retry at most once per 15 minutes and group repeated errors for an hour.\n- Include equipped cosmetic IDs by slot, parser progress, candidate counts and matching thresholds in support reports. Credentials, IP addresses, paths and packet contents are excluded.\n\nRegression tests cover a reset on match entry and a reset after a goal. Resolution of the reported user cases still needs confirmation on the affected PC; unsupported loadout formats can still prevent recognition. Owned RLCS / Esports decals may still reset spawned item colours after a goal.",
+  "publishedAt": "2026-10-05T18:40:27.7107402Z",
+  "notes": "# BondoMod v0.2.12\n\n- Support reports compare expected, received and successfully forwarded cosmetic IDs by slot. Record initial delivery, later loadout corrections and forwarding errors.\n- Distinguish historical match logs from recent evidence, with the time of the last recorded match and observation. A new app version alone does not prove that its spawner was tested.\n- Fix false painted-item baseline warnings: painted inventory entries do not trigger a warning unless a painted instance was identified as equipped.\n- Keep automatic failure detection active during long-running matches and reject stale contexts from an earlier spawner session.\n- Send reports for match delivery errors using the existing bounded offline queue and retry limits.\n- Use the app's diagnostic directory for standalone and combined spawner helpers, and record the diagnostic runtime revision.\n\nThis update improves diagnosis; the latest reported reset is not yet explained or confirmed fixed. Forwarded item IDs do not prove the game's rendered appearance. Owned RLCS / Esports decals may still reset spawned item colours after a goal.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.11/bondo-mod-0.2.11-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.11-x64.nsis.7z",
-    "size": 207745261,
-    "sha256": "fe534328e993f53e836c73445044f4b70334a5b1c7b69bb2d818f7121abb8caf"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.12/bondo-mod-0.2.12-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.12-x64.nsis.7z",
+    "size": 207748648,
+    "sha256": "ebb0fe5b28eb8553a203064ea03969b15a156810100dfef4cf0c5188a9d08e31"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.11/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.12/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "95a51e20e85dac45c5b6104f0c307eabf91186990b60c8dfd5e75fba222434ea"
+    "sha256": "12e1e8393c4ef8f30d474f3c584fd3e312a5a3e463be60c4a85068922f39fa02"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.11/BondoMod-Setup-0.2.11.exe",
-    "fileName": "BondoMod-Setup-0.2.11.exe",
-    "size": 5148950,
-    "sha256": "5758fb21c2c92777167f577aa8ee2a581832bda5d7df0336378dfd6fa438825e"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.12/BondoMod-Setup-0.2.12.exe",
+    "fileName": "BondoMod-Setup-0.2.12.exe",
+    "size": 5151100,
+    "sha256": "3d628c94de7c905f66eb5f5043cc51c716497de2fefb63cb83d21a6da0bf34bd"
   },
-  "signature": "s9KuJVQlNoPjuUzZLcGHJJxWN6+bgYJG9Ask9Rg42P1E6LQ/+57lPza7vjxzv5A+xi3dUhCdhFNgKqJwwSxiDA=="
+  "signature": "gLTFaQUiUyw8RHDz5gXr63pKi1YsrLcHL2pN8v7mjq+0NyftcVbvDYPJbmn8TG9ZS7XvjAwkGXpTdDZC+wTUCA=="
 }
