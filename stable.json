@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.13",
-  "minimumVersion": "0.2.13",
+  "version": "0.2.14",
+  "minimumVersion": "0.2.14",
   "required": false,
-  "publishedAt": "2026-10-06T13:17:37.5573311Z",
-  "notes": "# BondoMod v0.2.13\n\n- Fix recognition of a default boost (product 0) when the local preset is sufficiently identified. Previously this could reject the entire loadout and prevent other items from being restored.\n- Restore simultaneous resets of boost and optional cosmetics on a verified local loadout, including White Hat and Dev Boost regression coverage.\n- A default boost in the unused team preset no longer blocks correction of the selected preset. Preserve the other preset and reject foreign channels or insufficient ownership evidence.\n- Add precise recognition diagnostics: candidate channel, validated slot count, rejected slot/product, rejection reason and expected/observed cosmetic IDs. Unknown values remain explicitly unrecognized.\n- Automatically send a limited diagnostic when a later item reset correction was successfully forwarded, as well as for existing recognition and delivery failures. Preserve current match/session information during frequent corrections; keep offline retries, rate limits and the existing opt-out.\n\nThe reproduced decoder cases pass automated tests. The reported White Hat and Dev Boost resets still need confirmation on the affected PC; their previous reports did not contain the rejected product value. Owned RLCS / Esports decals may still reset spawned item colours after a goal.",
+  "publishedAt": "2026-10-06T20:00:37.0508925Z",
+  "notes": "# BondoMod v0.2.14\n\n- Add MMR Display as a permanent Basic plugin, directly below Platform Display. Choose a ranked mode, drag the transparent overlay, or adjust its position with X/Y sliders.\n- Read your rating after Rocket League login and refresh it after completed matches. Keep session MMR change, wins, losses and streak across app, game and PC restarts; reset them only after confirmation.\n- Fix scrolling in MMR settings and restore F2 focus monitoring independently of optional plugins.\n- Improve spawned-item recognition using the local player's game telemetry, and preserve the selected team's loadout when restoring items after goals. Keep ambiguous or other-player loadouts protected.\n- Improve automatic reset diagnostics with local equipped-item comparisons. Packet verification does not prove what the game rendered; affected users should retest match entry and goals.\n- Remove session network hooks when Rocket League exits and avoid repeated elevation prompts during Launch RL. Show installer recovery details when an installation fails.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.13/bondo-mod-0.2.13-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.13-x64.nsis.7z",
-    "size": 207752627,
-    "sha256": "a79d48a4958a08577545e1ce756948a841482125a41a009a931fa2387c3bf21e"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.14/bondo-mod-0.2.14-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.14-x64.nsis.7z",
+    "size": 207851878,
+    "sha256": "c977f8477d35015e7bec4ba2d01c6df7090653490da2f4ccc07ac4e856b9670f"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.13/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.14/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "f5c84ea769fbfcb9a555b6156ffbafa9ba50bb99d0f9263d61796bb74049185e"
+    "sha256": "afc3ec9cea324a492e13705dad317c116a2fc65ea4a9b4dc2e063947ccbc999a"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.13/BondoMod-Setup-0.2.13.exe",
-    "fileName": "BondoMod-Setup-0.2.13.exe",
-    "size": 5155165,
-    "sha256": "7752cfad8f548d1a9938040ff51b5b5ccdbee589aa25c9acf4966c60a848f256"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.14/BondoMod-Setup-0.2.14.exe",
+    "fileName": "BondoMod-Setup-0.2.14.exe",
+    "size": 5169639,
+    "sha256": "89f9c05b3522575b83991a7c15db22ee3855d6ff3d50493c43106262e8e14878"
   },
-  "signature": "inGpwJLDIt8Y7zEXy175OPIhZR5b5Ns4ak79aR8pSPRoKIHUyOCFkPiQawKNkfXkSPkkTIymoaslTg2icuWNAw=="
+  "signature": "TgZUW6ANNNAIHaWtT/VwbCgxzvZQOtw0cP7Mv7PlDx6bEhrXfPIc4svL+WIKysZUUgvX0xCttwkOytniDEwgCg=="
 }
