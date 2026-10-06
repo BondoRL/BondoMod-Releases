@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.12",
-  "minimumVersion": "0.2.12",
+  "version": "0.2.13",
+  "minimumVersion": "0.2.13",
   "required": false,
-  "publishedAt": "2026-10-05T18:40:27.7107402Z",
-  "notes": "# BondoMod v0.2.12\n\n- Support reports compare expected, received and successfully forwarded cosmetic IDs by slot. Record initial delivery, later loadout corrections and forwarding errors.\n- Distinguish historical match logs from recent evidence, with the time of the last recorded match and observation. A new app version alone does not prove that its spawner was tested.\n- Fix false painted-item baseline warnings: painted inventory entries do not trigger a warning unless a painted instance was identified as equipped.\n- Keep automatic failure detection active during long-running matches and reject stale contexts from an earlier spawner session.\n- Send reports for match delivery errors using the existing bounded offline queue and retry limits.\n- Use the app's diagnostic directory for standalone and combined spawner helpers, and record the diagnostic runtime revision.\n\nThis update improves diagnosis; the latest reported reset is not yet explained or confirmed fixed. Forwarded item IDs do not prove the game's rendered appearance. Owned RLCS / Esports decals may still reset spawned item colours after a goal.",
+  "publishedAt": "2026-10-06T13:17:37.5573311Z",
+  "notes": "# BondoMod v0.2.13\n\n- Fix recognition of a default boost (product 0) when the local preset is sufficiently identified. Previously this could reject the entire loadout and prevent other items from being restored.\n- Restore simultaneous resets of boost and optional cosmetics on a verified local loadout, including White Hat and Dev Boost regression coverage.\n- A default boost in the unused team preset no longer blocks correction of the selected preset. Preserve the other preset and reject foreign channels or insufficient ownership evidence.\n- Add precise recognition diagnostics: candidate channel, validated slot count, rejected slot/product, rejection reason and expected/observed cosmetic IDs. Unknown values remain explicitly unrecognized.\n- Automatically send a limited diagnostic when a later item reset correction was successfully forwarded, as well as for existing recognition and delivery failures. Preserve current match/session information during frequent corrections; keep offline retries, rate limits and the existing opt-out.\n\nThe reproduced decoder cases pass automated tests. The reported White Hat and Dev Boost resets still need confirmation on the affected PC; their previous reports did not contain the rejected product value. Owned RLCS / Esports decals may still reset spawned item colours after a goal.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.12/bondo-mod-0.2.12-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.12-x64.nsis.7z",
-    "size": 207748648,
-    "sha256": "ebb0fe5b28eb8553a203064ea03969b15a156810100dfef4cf0c5188a9d08e31"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.13/bondo-mod-0.2.13-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.13-x64.nsis.7z",
+    "size": 207752627,
+    "sha256": "a79d48a4958a08577545e1ce756948a841482125a41a009a931fa2387c3bf21e"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.12/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.13/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "12e1e8393c4ef8f30d474f3c584fd3e312a5a3e463be60c4a85068922f39fa02"
+    "sha256": "f5c84ea769fbfcb9a555b6156ffbafa9ba50bb99d0f9263d61796bb74049185e"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.12/BondoMod-Setup-0.2.12.exe",
-    "fileName": "BondoMod-Setup-0.2.12.exe",
-    "size": 5151100,
-    "sha256": "3d628c94de7c905f66eb5f5043cc51c716497de2fefb63cb83d21a6da0bf34bd"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.13/BondoMod-Setup-0.2.13.exe",
+    "fileName": "BondoMod-Setup-0.2.13.exe",
+    "size": 5155165,
+    "sha256": "7752cfad8f548d1a9938040ff51b5b5ccdbee589aa25c9acf4966c60a848f256"
   },
-  "signature": "gLTFaQUiUyw8RHDz5gXr63pKi1YsrLcHL2pN8v7mjq+0NyftcVbvDYPJbmn8TG9ZS7XvjAwkGXpTdDZC+wTUCA=="
+  "signature": "inGpwJLDIt8Y7zEXy175OPIhZR5b5Ns4ak79aR8pSPRoKIHUyOCFkPiQawKNkfXkSPkkTIymoaslTg2icuWNAw=="
 }
