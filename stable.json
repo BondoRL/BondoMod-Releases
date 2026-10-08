@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.17",
-  "minimumVersion": "0.2.17",
+  "version": "0.2.18",
+  "minimumVersion": "0.2.18",
   "required": false,
-  "publishedAt": "2026-10-08T16:21:01.4640924Z",
-  "notes": "Added a one-click support diagnostic in Settings for the last 5 minutes of app, plugin and spawner events, saved spawn inventory and related Rocket League process states. Credentials and private content are filtered; raw audio and video output channels are excluded.",
+  "publishedAt": "2026-10-08T17:27:20.0669143Z",
+  "notes": "Improved five-minute support diagnostics: repeated background messages are summarized, important spawner and match events are prioritized, and automatically detected issues retain their original diagnostic context. Reports distinguish observed item mismatches from unverified delivery and identify missing evidence. Raw keyboard/mouse input and unrelated process listings are excluded.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.17/bondo-mod-0.2.17-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.17-x64.nsis.7z",
-    "size": 181215598,
-    "sha256": "1af4c958beee8a9a9e75f6f8bc816105ce935708c72ef3e6918a1e36d5d60714"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.18/bondo-mod-0.2.18-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.18-x64.nsis.7z",
+    "size": 181228776,
+    "sha256": "7d6f48f33459199f0bd7b93a9f289e5b01609b6b024c00d5d1c50150751884a0"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.17/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.18/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76288,
-    "sha256": "9375ffa5349a33d8a49cf5593b37cd9a86914876132de8b72397e4b529481b4a"
+    "sha256": "2f1b20376a5aca629f2bdc1c762b9f5a7faab28e82e60e72608ed0829f0f0183"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.17/BondoMod-Setup-0.2.17.exe",
-    "fileName": "BondoMod-Setup-0.2.17.exe",
-    "size": 5173908,
-    "sha256": "7cf9182d0a10d444620dbb89ead9ba709d3580355310d6cba2bd61953abf2f34"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.18/BondoMod-Setup-0.2.18.exe",
+    "fileName": "BondoMod-Setup-0.2.18.exe",
+    "size": 5173951,
+    "sha256": "617fe8e5edd81851c33767bd25697215f5999eeba29ec0c897322cfade12a210"
   },
-  "signature": "w9dP1d4o/r+gm+srWIYPllChSy7nj39HTsxR+WCyqGH0ah76kg3/DuuGpHGoOF6prce6APxPv/VMTpPCUka5Dg=="
+  "signature": "SJ7GGqzSVnScv7jorS9WZ0r1lzfz2IGXOhYjNiQhAlPAcjQn4ldC0+0s0/JritgGbZ4iRk6eY+RA0qC87BtnBQ=="
 }
