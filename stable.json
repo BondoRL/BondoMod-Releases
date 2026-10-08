@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.16",
-  "minimumVersion": "0.2.16",
+  "version": "0.2.15",
+  "minimumVersion": "0.2.15",
   "required": false,
-  "publishedAt": "2026-10-08T16:08:32.5625454Z",
-  "notes": "Added a one-click support diagnostic in Settings for the last 5 minutes of app, plugin and spawner events and related Rocket League process states. Sensitive credentials and private content are filtered before upload.",
+  "publishedAt": "2026-10-07T15:40:24.1024043Z",
+  "notes": "# BondoMod v0.2.15\n\n- Fix stale vehicle loadout tracking when Rocket League recreates the car after a goal, including delayed team recognition and repeated loadout updates.\n- Recognize items that share a game asset, including Cristiano editions, without guessing a product ID or modifying another player's items.\n- Restore direct networking after a failed initial login instead of leaving the auth redirect active indefinitely. Preserve reconnect support for successfully connected sessions.\n- Extend automatic diagnostics to report repeated local item mismatches and missed initial logins. Distinguish unknown items from confirmed mismatches and record whether a connection and login request reached the local service.\n- Offer the official installer when required network recovery files are missing, and verify those files in the packaged release.\n\nThese fixes pass targeted regression tests. Affected users should retest match entry and goals; successful packet correction alone does not confirm the rendered inventory.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.16/bondo-mod-0.2.16-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.16-x64.nsis.7z",
-    "size": 181218434,
-    "sha256": "7abc12c11df6a325a6fb67353d0108478666843e6bf20cae810ad2a6c6a2d69f"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.15/bondo-mod-0.2.15-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.15-x64.nsis.7z",
+    "size": 207854748,
+    "sha256": "ac077687d4f652f5b592f805f73816016b43b429c4eaee7881a91e1d42ed0a0b"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.16/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.15/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
-    "size": 76288,
-    "sha256": "c468b548c08b25516ea57f4b60d80e7a7e778adc16819f22635c1684ad2b7108"
+    "size": 76800,
+    "sha256": "a8d5069c0ea0db69a5c834c229884e0cb31be83af13e406a9f5ce58121bfc074"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.16/BondoMod-Setup-0.2.16.exe",
-    "fileName": "BondoMod-Setup-0.2.16.exe",
-    "size": 5174031,
-    "sha256": "bcfa3a0785897d84172280c37c9f61d6a75bb8e0fd1172dde67814ae0dbc551e"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.15/BondoMod-Setup-0.2.15.exe",
+    "fileName": "BondoMod-Setup-0.2.15.exe",
+    "size": 5174026,
+    "sha256": "829a1977b63bff907f0b87145ce64e19786eeb8c0cb7a62ec83430718473eedc"
   },
-  "signature": "gL6Nks03f4MBEQDQca888EosLkiwnUYdnOQWAiNJhbTtCKrtm0ay24JRe1B/pm1EVa1T75vMdUgoJ0O7epvWCw=="
+  "signature": "rxwpdbrJu+LTJSwWdg2Ni5TB/SwYoSBxgPbE4AhcpRrqZ761iQXVi8FpicgXEe/IneBdaw9vERJhVCWM6urpDg=="
 }
