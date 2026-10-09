@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.19",
-  "minimumVersion": "0.2.19",
+  "version": "0.2.20",
+  "minimumVersion": "0.2.20",
   "required": false,
-  "publishedAt": "2026-10-08T18:30:08.5612052Z",
-  "notes": "Improved five-minute spawner diagnostics with bounded, read-only inspection of authenticated match loadouts. Reports distinguish uniquely identified player data from tentative candidates, show missing catalog entries and the availability of the player reference, and preserve privacy filtering. This update improves investigation of remaining item resets; it is not a confirmed fix for every affected session.",
+  "publishedAt": "2026-10-09T17:16:04.3987860Z",
+  "notes": "Rocket League launch now verifies the game process, detects the selected launcher again and retries the installed launcher when a launch link does nothing.\r\n\r\nImproved Spawner startup and reconnect waiting, optional cosmetic catalog handling for uniquely identified own loadouts, and direct online recovery after a failed auth bridge.\r\n\r\nItem Swapper 2.0.4 checks every original backup before restoring files and prevents replacing files while Rocket League is running.\r\n\r\nThese fixes cover reproduced failure paths; affected users should still test match entry and goals.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.19/bondo-mod-0.2.19-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.19-x64.nsis.7z",
-    "size": 181150041,
-    "sha256": "4186b0504da319b25e59fbddb5304f78c17003dcdf74c6131d214d87fe4f76f7"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.20/bondo-mod-0.2.20-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.20-x64.nsis.7z",
+    "size": 181150314,
+    "sha256": "a26f82fed30b0ed86e360fefcc95423e8c6a27f1dac0f349c72a1d073bab2ddc"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.19/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.20/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76288,
-    "sha256": "8f115b18fb642744e903d6f5a66806325e077ed1846ecf27f9543f44226be8b7"
+    "sha256": "621968a1eaba2f5016054dad38ba444cc42fb0ad85c70d630d78e3a742f3bab0"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.19/BondoMod-Setup-0.2.19.exe",
-    "fileName": "BondoMod-Setup-0.2.19.exe",
-    "size": 5177438,
-    "sha256": "467a42ccb5702b7e9fa5eb6daddaf783c50154d45011aa02d916ce6672664dbc"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.20/BondoMod-Setup-0.2.20.exe",
+    "fileName": "BondoMod-Setup-0.2.20.exe",
+    "size": 5191869,
+    "sha256": "31463a7607804400f152f3c5328394cfab7f80be5908e9b691f0155fcd82b381"
   },
-  "signature": "vS4KT0xn308jFZ9yLvuX7ZPrESReGs9hVi9EwLb2ekL8Mumf6psy9rMcisCPfzi99uK6Rk2ybubPESipAo9yDw=="
+  "signature": "Mv2+ijdA4emL4w2PpadtSe4Habjgmx1IowawV1gSJiXWb72gUzQkKu6y5/WxXrZCKmuUkBZGmOCduXvdSJ2fCg=="
 }
