@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.20",
-  "minimumVersion": "0.2.20",
+  "version": "0.2.21",
+  "minimumVersion": "0.2.21",
   "required": false,
-  "publishedAt": "2026-10-09T17:16:04.3987860Z",
-  "notes": "Rocket League launch now verifies the game process, detects the selected launcher again and retries the installed launcher when a launch link does nothing.\r\n\r\nImproved Spawner startup and reconnect waiting, optional cosmetic catalog handling for uniquely identified own loadouts, and direct online recovery after a failed auth bridge.\r\n\r\nItem Swapper 2.0.4 checks every original backup before restoring files and prevents replacing files while Rocket League is running.\r\n\r\nThese fixes cover reproduced failure paths; affected users should still test match entry and goals.",
+  "publishedAt": "2026-10-09T17:58:10.1503340Z",
+  "notes": "- The updated in-game menu includes Items, Titles, Presets, Clip Clipper and Plugins.\n- Create named presets, import BondoMod codes, view colour instructions and load items with the normal reward animation. Preset packages appear together in Current Items and can be removed after Rocket League closes.\n- Added first-use preset instructions, delete-all confirmation and preset-package removal.\n- The Titles catalogue is available for Lite and Plus. In-game title spawning and equipping are not supported yet.\n- Added Lite and Plus licence activation, account-assigned licences, current-plan display and device release for switching PCs. Existing Plus owners do not need to purchase again.\n- Standard item spawning and presets remain free. Clip Clipper and Flex Mechs require Lite or Plus; painted items and shaders require Plus.\n- Removed the outdated Item Spawn is ready on F3 message.\n- Retains the launcher, Spawner connection, optional cosmetic catalogue and Item Swapper stability fixes from 0.2.20.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.20/bondo-mod-0.2.20-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.20-x64.nsis.7z",
-    "size": 181150314,
-    "sha256": "a26f82fed30b0ed86e360fefcc95423e8c6a27f1dac0f349c72a1d073bab2ddc"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.21/bondo-mod-0.2.21-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.21-x64.nsis.7z",
+    "size": 207795367,
+    "sha256": "baa0c958b95bf24e66c98328f25623107a029c1a9255123eab96b6fc75641bc2"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.20/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.21/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
-    "size": 76288,
-    "sha256": "621968a1eaba2f5016054dad38ba444cc42fb0ad85c70d630d78e3a742f3bab0"
+    "size": 76800,
+    "sha256": "d2e298ed7aaa90f0dc06cc15abc36860cfb85a7f84f000a1d6c83eea67fa22f9"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.20/BondoMod-Setup-0.2.20.exe",
-    "fileName": "BondoMod-Setup-0.2.20.exe",
-    "size": 5191869,
-    "sha256": "31463a7607804400f152f3c5328394cfab7f80be5908e9b691f0155fcd82b381"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.21/BondoMod-Setup-0.2.21.exe",
+    "fileName": "BondoMod-Setup-0.2.21.exe",
+    "size": 5191802,
+    "sha256": "9759e6f33530962cc3c4be312e69d87d42d100ae328ca9cb4de7ccc2509006b4"
   },
-  "signature": "Mv2+ijdA4emL4w2PpadtSe4Habjgmx1IowawV1gSJiXWb72gUzQkKu6y5/WxXrZCKmuUkBZGmOCduXvdSJ2fCg=="
+  "signature": "otWB1/dIHP1DUOvEKGaOHS3YhH/nVcS67ZIA9rwAmLNsGgMLAbAEz/+/9qTKQfKOztXrE+2ZFTRdx0ZeqjT0DA=="
 }
