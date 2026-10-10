@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.22",
-  "minimumVersion": "0.2.22",
+  "version": "0.2.23",
+  "minimumVersion": "0.2.23",
   "required": false,
-  "publishedAt": "2026-10-09T20:34:27.8484665Z",
-  "notes": "- Replaced automatic error reports with voluntary diagnostic recording in Settings.\n- Confirm the safety and data notice, then record up to eight minutes. Stop early and send manually, or let the recording upload automatically after eight minutes.\n- Captures app, plugin, Spawner and observed match events, and related Rocket League, BondoMod, launcher, anti-cheat and child-process states. Credentials and raw input remain excluded.\n- Recordings have no event-count eviction limit. Large recordings upload in linked parts; failed uploads retain unsent parts for retry while the app remains open.\n- Added HTTP request-progress measurements to investigate the observed Spawner login failure.\n- Keeps the complete preset menu, Titles catalogue, Lite/Plus licences and existing launcher and Spawner fixes. In-game title spawning remains unsupported.",
+  "publishedAt": "2026-10-10T15:51:30.7861502Z",
+  "notes": "- Automatically recognises new and reset account licences on the next verified device check, while preserving existing device ownership and revoked licences.\n- Checks licences before opening the app and when Launch RL is used. The profile shows Lite, Plus or Missing License based on a verified active licence.\n- Imports preset codes directly with Add to Your Presets; the Preview step has been removed.\n- Lite and Plus users can add titles to the local BondoMod spawn list during an authorised Spawner session. In-game title spawning and equipping are still unsupported; local titles are excluded from game delivery.\n- Keeps the eight-minute voluntary diagnostic recording and existing Spawner and launcher fixes.\n- Device binding remains constant across BondoMod updates, reinstalls and test profiles on the same Windows installation. Existing installation-specific bindings migrate once using a signed account licence receipt.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.22/bondo-mod-0.2.22-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.22-x64.nsis.7z",
-    "size": 207813282,
-    "sha256": "52638fbbfb082cf34b31b811348f2ec2ecd3c9a0fb186a8042cbbcec3851a026"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.23/bondo-mod-0.2.23-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.23-x64.nsis.7z",
+    "size": 207816482,
+    "sha256": "2fd42cfb104ae39cbb3deaaf509caa93529112dd93d8055aefee62a6d0176436"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.22/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.23/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "e8d986d96f04f78abc373730004af84823fbf857d825e0ce49d377883018af79"
+    "sha256": "e6340c92b87fe72c12aad7cf3a0786c9ad900ef8be7e800ec7201e2b83352f1a"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.22/BondoMod-Setup-0.2.22.exe",
-    "fileName": "BondoMod-Setup-0.2.22.exe",
-    "size": 5192067,
-    "sha256": "0c7ebbccbfda7db21c806bf366274cf9c78d6704d4c9fb5a8d42fcaa4b75b0a6"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.23/BondoMod-Setup-0.2.23.exe",
+    "fileName": "BondoMod-Setup-0.2.23.exe",
+    "size": 5192217,
+    "sha256": "872553b505441dd830f3e969d8b1c6c221f3ddd731ab12e245a7517457f21878"
   },
-  "signature": "sLjTOvvq6dvA+2zl/zmp7mLyHKsZAGZzbfSIk3Y5Df5n0pL5b6FqaXk87YVQb7DCrLJ3a3iql4I1P/MHTVczDQ=="
+  "signature": "R2u9jvCevL/S8Y93OQcbWGhiUWK7HU9N+CP+b/CvMsDOqm6xT3WAi5JRHEEvUPxFbSkeLBoUEJDxHEaK852FCg=="
 }
