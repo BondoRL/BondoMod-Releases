@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.24",
-  "minimumVersion": "0.2.24",
+  "version": "0.2.25",
+  "minimumVersion": "0.2.25",
   "required": false,
-  "publishedAt": "2026-10-10T17:50:44.0186101Z",
-  "notes": "BondoMod v0.2.24\n\n- Fixed a painted Standard Boost reset after a goal. The fix passed a live test.\n- Improved recognition when local loadout information arrives late. This is a possible fix for Pendix and other affected users, pending their confirmation.\n- Expanded voluntary eight-minute diagnostics with encrypted match packets and the corrections sent to Rocket League. Start recording before using Launch RL, reproduce the issue, then stop and send the diagnostic.\n- Failed diagnostic uploads are retained for retry.\n- Fixed Lite access to Flex Mechs.",
+  "publishedAt": "2026-10-10T20:18:32.2705227Z",
+  "notes": "BondoMod v0.2.25\r\n\r\n- Fixed parsing of newer Rocket League loadout product values that prevented reset protection from recognizing some players.\r\n- Added early authenticated Steam player detection and retention of the actual equipped blue and orange presets, avoiding stale reservation items and late owner detection.\r\n- Corrected the reset reproduced from Pendix’s complete recording: boost and trail are preserved in the ordered replay. Please confirm the result in a live match after updating.\r\n- Added safeguards for other players, changed match channels and invalid packets, with regression coverage for these cases.\r\n- Retained the painted-item fix, voluntary encrypted diagnostics and Lite feature access.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.24/bondo-mod-0.2.24-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.24-x64.nsis.7z",
-    "size": 207815809,
-    "sha256": "6732a6eb61d921e04ffbf3c44984f4c24c808e1e9986b9e13afd2eef2df46d36"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.25/bondo-mod-0.2.25-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.25-x64.nsis.7z",
+    "size": 207820782,
+    "sha256": "9fe78b26c1964d5ef3b985c0e89960e282447960993a931480097fee0292301b"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.24/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.25/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "368f81247a15d99073cab5763d72b79ef35e56c142e42cb46826bb881d15229f"
+    "sha256": "83dd3ce354cb927b6b67cf410fce9740019be36d499485360cbff3c8a4019759"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.24/BondoMod-Setup-0.2.24.exe",
-    "fileName": "BondoMod-Setup-0.2.24.exe",
-    "size": 5204569,
-    "sha256": "1bb8cd7cb391da574d31be7b1502ab301a9d038c24aa9d389d6233dc605fba54"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.25/BondoMod-Setup-0.2.25.exe",
+    "fileName": "BondoMod-Setup-0.2.25.exe",
+    "size": 5211401,
+    "sha256": "9b9d935110c0bb9fe7bf59f9dad7f51b544a67081188d14094a9121249986fc1"
   },
-  "signature": "dDTZmBMXfQhlORm5fJWBz4jeVbZ42wRv5D3XqLjwCY8+N03d4rLNC5reBwIl8BTpodAhPkRrY2nMoWjguYgxAA=="
+  "signature": "YOWele+kZzfFJk/fi9xrl/cSOpavGCIFwJYXcKAWsep8HEkjIYQKaZ7LCnXSnB4vAtbzlO6krSFEP0xCbis5AA=="
 }
