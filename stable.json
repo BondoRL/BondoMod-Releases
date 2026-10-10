@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.25",
-  "minimumVersion": "0.2.25",
+  "version": "0.2.26",
+  "minimumVersion": "0.2.26",
   "required": false,
-  "publishedAt": "2026-10-10T20:18:32.2705227Z",
-  "notes": "BondoMod v0.2.25\r\n\r\n- Fixed parsing of newer Rocket League loadout product values that prevented reset protection from recognizing some players.\r\n- Added early authenticated Steam player detection and retention of the actual equipped blue and orange presets, avoiding stale reservation items and late owner detection.\r\n- Corrected the reset reproduced from Pendix’s complete recording: boost and trail are preserved in the ordered replay. Please confirm the result in a live match after updating.\r\n- Added safeguards for other players, changed match channels and invalid packets, with regression coverage for these cases.\r\n- Retained the painted-item fix, voluntary encrypted diagnostics and Lite feature access.",
+  "publishedAt": "2026-10-10T20:45:54.1787112Z",
+  "notes": "BondoMod v0.2.26\n\n- Fixed painted-item retention after goals when newer Rocket League loadout values prevented colour recognition.\n- Separated initial colour detection from match discovery and increased processing time only for verified local paint updates.\n- Verified Lime Standard and Titanium White Laser Wave III for both teams in the complete affected-user recording. Please confirm the result in a live match after updating.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.25/bondo-mod-0.2.25-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.25-x64.nsis.7z",
-    "size": 207820782,
-    "sha256": "9fe78b26c1964d5ef3b985c0e89960e282447960993a931480097fee0292301b"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.26/bondo-mod-0.2.26-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.26-x64.nsis.7z",
+    "size": 207826201,
+    "sha256": "647b0fa16ac68c4ff557654ddb79633569d03de6ce7816f2ff89d4fdbc6eea5a"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.25/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.26/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "83dd3ce354cb927b6b67cf410fce9740019be36d499485360cbff3c8a4019759"
+    "sha256": "d4a1fe4985cf22ac15c4f90a8956c6f086e4e6fd5b42e18ea5498a1c7fc73cc0"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.25/BondoMod-Setup-0.2.25.exe",
-    "fileName": "BondoMod-Setup-0.2.25.exe",
-    "size": 5211401,
-    "sha256": "9b9d935110c0bb9fe7bf59f9dad7f51b544a67081188d14094a9121249986fc1"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.26/BondoMod-Setup-0.2.26.exe",
+    "fileName": "BondoMod-Setup-0.2.26.exe",
+    "size": 5212217,
+    "sha256": "bcea53e951f1022ae9407bd9b7476abeaaf1c0e2b09afcf2f4f369ba9029db54"
   },
-  "signature": "YOWele+kZzfFJk/fi9xrl/cSOpavGCIFwJYXcKAWsep8HEkjIYQKaZ7LCnXSnB4vAtbzlO6krSFEP0xCbis5AA=="
+  "signature": "d3dx9m9LDM8+aAJMBWkdM32jLWAKi9AJ+yzE0YkS5DX1zC83CsezpWeN7Q0mwPqM/2acD7i6cyqpbbEcG87XAQ=="
 }
