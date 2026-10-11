@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.26",
-  "minimumVersion": "0.2.26",
+  "version": "0.2.27",
+  "minimumVersion": "0.2.27",
   "required": false,
-  "publishedAt": "2026-10-10T20:45:54.1787112Z",
-  "notes": "BondoMod v0.2.26\n\n- Fixed painted-item retention after goals when newer Rocket League loadout values prevented colour recognition.\n- Separated initial colour detection from match discovery and increased processing time only for verified local paint updates.\n- Verified Lime Standard and Titanium White Laser Wave III for both teams in the complete affected-user recording. Please confirm the result in a live match after updating.",
+  "publishedAt": "2026-10-11T09:02:02.7041169Z",
+  "notes": "BondoMod v0.2.27\r\n\r\n- Fixed Blue/Orange boost separation for matching car, decal and wheel presets, including Sloppyjoe's Dev Boost / Alpha Boost setup.\r\n- Titles now use the Rocket League inventory reward channel for Lite and Plus. Match title display remains unsupported.\r\n- Added Login with Email and Login with Discord to the app. Link Discord to your existing account under Linked Accounts on the website or in the app.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.26/bondo-mod-0.2.26-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.26-x64.nsis.7z",
-    "size": 207826201,
-    "sha256": "647b0fa16ac68c4ff557654ddb79633569d03de6ce7816f2ff89d4fdbc6eea5a"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.27/bondo-mod-0.2.27-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.27-x64.nsis.7z",
+    "size": 207828676,
+    "sha256": "cec8592cd9460b015a5fef824e1ac61ce67a56470289b1f6a9f5b8685d9e5760"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.26/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.27/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "d4a1fe4985cf22ac15c4f90a8956c6f086e4e6fd5b42e18ea5498a1c7fc73cc0"
+    "sha256": "d90f87a3ea03af8764204456541dd71a544f857a50f0bee796da1ec010ccbc15"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.26/BondoMod-Setup-0.2.26.exe",
-    "fileName": "BondoMod-Setup-0.2.26.exe",
-    "size": 5212217,
-    "sha256": "bcea53e951f1022ae9407bd9b7476abeaaf1c0e2b09afcf2f4f369ba9029db54"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.27/BondoMod-Setup-0.2.27.exe",
+    "fileName": "BondoMod-Setup-0.2.27.exe",
+    "size": 5213818,
+    "sha256": "e05e5695084cee5ebae5c6d54b854390a9a236917cb9454628e08109362515c7"
   },
-  "signature": "d3dx9m9LDM8+aAJMBWkdM32jLWAKi9AJ+yzE0YkS5DX1zC83CsezpWeN7Q0mwPqM/2acD7i6cyqpbbEcG87XAQ=="
+  "signature": "4ygiyeKQSzY1u1hsaTWRS1v66zm0BUwOBuaeMglNkbz8BLufLrokvHBFwqYV+2qsw7NzHJnUt9hgbkucK86eAQ=="
 }
