@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.28",
-  "minimumVersion": "0.2.28",
+  "version": "0.2.29",
+  "minimumVersion": "0.2.29",
   "required": false,
-  "publishedAt": "2026-10-11T18:29:42.5998604Z",
-  "notes": "- Other signed-in BondoMod players can now see your equipped spawned items, including when joining a match. Enable Item Spawn and start Rocket League with Launch RL on both PCs.\n- Item Spawn now requires a BondoMod account. Creating an account and spawning normal items are free.\n- Fixed Name Changer blocking Launch RL when Item Spawn and Titles are turned off.\n- Added correct primary and accent paint-finish slots, including retention across match loadout updates.\n- Improved Customs compatibility after game updates by keeping texture backups separate for each package version.\n- Reordered Base Plugins: Items, Customs, Workshop Maps, Platform Display, Rank Display and MMR Display. Rank Display is under development.",
+  "publishedAt": "2026-10-13T17:36:45.5811808Z",
+  "notes": "# BondoMod v0.2.29\r\n\r\n- Added free Custom PFP for Epic Games: upload a picture for Rocket League’s native avatar fields. Images are converted automatically; close Rocket League before changing the picture or switching the feature on/off.\r\n- Custom Cars is now a free installable plugin with a simple car list, previews, Apply confirmation, saved swaps and verified Revert.\r\n- Added free Fake Friends for local friend-list entries. It requires Launch RL and shuts down with Rocket League; it does not create real friendships or online presence.\r\n- Item colours and painted presets are now included in Lite and Plus, including existing licences. Title spawning now requires Plus; in-game title display and custom titles remain under development.\r\n- Improved Launch RL preparation with parallel account/installation checks, consolidated network cleanup and an earlier launcher fallback. License-device bindings are retained.\r\n- Improved recovery from rejected Name Changer connections. Existing Name Changer installations receive plugin version 2.0.3.\r\n- Cleaned up the Items interface and Custom Cars layout, removed sidebar plugin icons and kept the red Launch RL notice in the main app.\r\n- Rank Display remains disabled with “Developing in progress”. Existing item sharing and team-specific loadouts are retained.\r\n- The website now includes What’s New: the latest ten public releases, Read more for the accumulated history, and automatic new-release updates. Plugin Requests are not included.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.28/bondo-mod-0.2.28-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.28-x64.nsis.7z",
-    "size": 207843729,
-    "sha256": "d61cd58c3051ce2a239fd5acdabd5dc78172817c21a5c81289d44a334c98be48"
+    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.2.29/bondo-mod-0.2.29-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.29-x64.nsis.7z",
+    "size": 219516643,
+    "sha256": "a56c9f4380c9e77bfd5bf11a99a37008dbed981ffb04dbd2e8d53a0e5021bf3b"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.28/BondoMod-Installer.exe",
+    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.2.29/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "c153a8cbbca74eed1edbbbea4af2bf062658be732f4d368b126926391223b3cb"
+    "sha256": "b746291978d7178c240bc187293ac8968276c735653b6b3572560cdce0173d3c"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.28/BondoMod-Setup-0.2.28.exe",
-    "fileName": "BondoMod-Setup-0.2.28.exe",
-    "size": 5247067,
-    "sha256": "f17f175d21f2d4c0e9ada091ca963e12384a7dc391646006a32d45185efde806"
+    "url": "https://github.com/MrBondoRL/BondoMod-Releases/releases/download/v0.2.29/BondoMod-Setup-0.2.29.exe",
+    "fileName": "BondoMod-Setup-0.2.29.exe",
+    "size": 5257337,
+    "sha256": "7b1f578b25f9b90e805ec65f0349eeb7c8ade92e9344a9367fb8e72bed6ee972"
   },
-  "signature": "+fb7R6dqUPLCHWcEpUYuqUEeZ3ug/9cBx1A+HbU8pEXVJk1lSkRi1YRLAZ/9djVQuGaP/rWPt6Q5rbV6q4PrBw=="
+  "signature": "bJakJPc+d2oT2CAC/BbHNjDcN0ldbbUm/EF+Ng7rs12E5os8cURxF5p46g/jtUSeFTuQPmAGoyGF/2N5lvkdAA=="
 }
