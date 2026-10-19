@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.31",
-  "minimumVersion": "0.2.31",
+  "version": "0.2.32",
+  "minimumVersion": "0.2.32",
   "required": false,
-  "publishedAt": "2026-10-19T11:59:49.7781234Z",
-  "notes": "- Spawn Titles with Lite or Plus, and create Custom Titles with Plus.\n- See other BondoMod players' Titles and Custom Titles.\n- Improved item spawning and stability.\n- Clearer launch errors and correct Free account labels.",
+  "publishedAt": "2026-10-19T18:40:43.7849312Z",
+  "notes": "- Fix for Launch RL.\r\n- Fix for item colours after goals.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.31/bondo-mod-0.2.31-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.31-x64.nsis.7z",
-    "size": 224470689,
-    "sha256": "392cbb3bb16b5eeed61b3bfca025100c774f4becd0050ae2a0cbc626f0807e75"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.32/bondo-mod-0.2.32-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.32-x64.nsis.7z",
+    "size": 224469869,
+    "sha256": "81b0cbf475bd7018b3278364d36d53fa9dfeafce6f57df6cd90308e0a9e3b452"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.31/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.32/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "72fbd414c73c09f936bcbf4df5f05f1849b334327cf92b13c9374c923fc7a689"
+    "sha256": "5feff71e1cc7c360fd61437403852eefa014961e4610a902f74fb49f6545ad76"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.31/BondoMod-Setup-0.2.31.exe",
-    "fileName": "BondoMod-Setup-0.2.31.exe",
-    "size": 5291549,
-    "sha256": "8bb6138739cd3cd1322cc77753fa3e1116088585c6a08bddc2971a3c6b5bb004"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.32/BondoMod-Setup-0.2.32.exe",
+    "fileName": "BondoMod-Setup-0.2.32.exe",
+    "size": 5292513,
+    "sha256": "1dfc6194ecac16f9c92375c4857614f6ee310636b958f6f7a25001fa39614139"
   },
-  "signature": "k3mty3YJun5LD3iNra0ypF7IoHKYrLQh2nJEYKvLWzYsax20rMp51f0meoo09N2qWXshKM0//rUwdrKiIuoiBg=="
+  "signature": "yh22PgUEHGgmDo4LJ36nBLeBhFa8SwD+tKmsoTZ/OWV0n8a9qgO4DMJJmZ94elrgnrs3iHG7x/UKZzAUVTa0Cg=="
 }
