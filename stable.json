@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.36",
-  "minimumVersion": "0.2.36",
+  "version": "0.2.37",
+  "minimumVersion": "0.2.37",
   "required": false,
-  "publishedAt": "2026-10-21T19:19:33.6169638Z",
-  "notes": "- Restored local Titles and Custom Titles on scoreboards and banners, enabled by default. Peer title sharing remains disabled.\n- Restored Name Changer through the scoped Steam and Epic connection.\n- Restored Plus-only coloured Alpha Boosts with HEX selection and matching thumbnails. Fixed premature effect loading and unresolved item names.\n- Custom PFP validates when activated and repairs outdated original backups. Launch RL no longer checks or reapplies PFP.\n- Optional feature failures now produce a warning with a local technical log while the normal Rocket League launch continues.",
+  "publishedAt": "2026-10-22T11:10:39.9151287Z",
+  "notes": "- Fixed Spawner startup.\n- Added 160 items.\n- Fixed Free access and upgrade links.\n- Improved the F2 menu.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.36/bondo-mod-0.2.36-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.36-x64.nsis.7z",
-    "size": 231232468,
-    "sha256": "1a60f09a51cdf4cb845fcae48bccd0f3954c7a99c317b96c4497838c0e31add2"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.37/bondo-mod-0.2.37-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.37-x64.nsis.7z",
+    "size": 231215647,
+    "sha256": "2dcaf2bf2836ea547bdb000a61cf07f1dbda67e571c6a30017e09e591cff6d7e"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.36/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.37/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "57b7bcdc4b51ce7cbdfa786a0e2c7d9ad87d5efd53398e54dbaa7def77921c3f"
+    "sha256": "6e3f462f3f704229fcb4afe8f1db8ecdf8c11ecaa2f80e66d7949e40b5168b91"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.36/BondoMod-Setup-0.2.36.exe",
-    "fileName": "BondoMod-Setup-0.2.36.exe",
-    "size": 5322115,
-    "sha256": "72193fc02d00f0787d080a6e9005ffa4cfa79187c62e6e0f4d4a06456ba865db"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.37/BondoMod-Setup-0.2.37.exe",
+    "fileName": "BondoMod-Setup-0.2.37.exe",
+    "size": 5322153,
+    "sha256": "dda54b651696f75b18694a4ed72ceb08c19690b74dbf67d4cc5363a112cbeb2a"
   },
-  "signature": "zjCyfVTV8tldN/XgsXnK7H/AKbZwia9d5QFjCQnf6cFNMALEH/GJx/RhsLPAcNjOW/tDyGLgFOKQL0Nc371YAw=="
+  "signature": "Hn7gjYsm60deoXBj+9jCvt3H5VJC1KdHrPhDjXWlwU81cCF8Omy22+kFDJGE2d+2wPIgK3qqiAMnDW/XLgOdDA=="
 }
