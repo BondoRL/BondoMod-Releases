@@ -1,28 +1,29 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.37",
-  "minimumVersion": "0.2.37",
+  "version": "0.2.38",
+  "minimumVersion": "0.2.38",
   "required": false,
-  "publishedAt": "2026-10-22T11:10:39.9151287Z",
-  "notes": "- Fixed Spawner startup.\n- Added 160 items.\n- Fixed Free access and upgrade links.\n- Improved the F2 menu.",
+  "publishedAt": "2026-10-23T09:14:32.7871476Z",
+  "notes": "- Instant transparent F2 menu with toggle.\n- Item sharing and player detection restored.\n- Custom Alpha colours stay saved; stock boosts preserved.\n- Restored MMR and fixed optional feature startup.",
+  "changelogNotes": "- Reworked the transparent F2 menu to keep its window surface ready between uses, avoiding repeated native show/hide animations. Press F2 or your configured menu key again to close it. Free users retain access to Plugins, while paid features keep their existing license checks.\n- Re-enabled match-scoped item sharing between BondoMod users for supported vehicle cosmetics, paints, banners and goal explosions. Goal Anthems are excluded. Title and profile-picture sharing remain disabled; local Titles remain available.\n- Added a once-per-match notification when other confirmed BondoMod players are detected. The notification has a spring entrance, a blinking red live indicator, a short ding, a five-second hold and a quick exit. Your own player is not included in the count.\n- Fixed the Custom Alpha Boost catalog validation error and stopped replacing Standard Blue, Purple and Pink. Coloured Alpha uses verified empty catalog slots, while the outgoing boost identity and the shared appearance use Standard. Custom Alpha remains exclusive to Plus.\n- Saved Custom Alpha Boost inventory entries and their HEX colours are restored before the next game launch, without requiring another spawn. Removing a saved boost also removes it from the next restoration. Original game files are still restored during cleanup.\n- Restored the MMR Display and its local observer connection, including when Item Spawn and Name Changer are turned off.\n- Fixed a Titles cache error caused by an unavailable app reference. Optional overlay and installed-plugin restoration failures now retain their technical details without cancelling the game launch or preventing other overlays from restoring.\n- Updated the item-sharing catalog bounds for the current game catalog and retained real items that overlapped IDs used by an older Alpha test. The current public-version diagnostic check found no reports for 0.2.37.\n- The app update checker displays four short notes; Discord and GitHub use these detailed release notes. Automated sharing checks passed; a fresh two-client online sharing test was not performed for this release.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.37/bondo-mod-0.2.37-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.37-x64.nsis.7z",
-    "size": 231215647,
-    "sha256": "2dcaf2bf2836ea547bdb000a61cf07f1dbda67e571c6a30017e09e591cff6d7e"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.38/bondo-mod-0.2.38-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.38-x64.nsis.7z",
+    "size": 231226648,
+    "sha256": "c1495f419e71cbf0a6c5471e68055c4e13499e5d5d2546402d7304526939e35d"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.37/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.38/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 76800,
-    "sha256": "6e3f462f3f704229fcb4afe8f1db8ecdf8c11ecaa2f80e66d7949e40b5168b91"
+    "sha256": "06f9a1395099a873f6e926ef2b4765e337cd22fea59c2f4033fc024e23aa20eb"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.37/BondoMod-Setup-0.2.37.exe",
-    "fileName": "BondoMod-Setup-0.2.37.exe",
-    "size": 5322153,
-    "sha256": "dda54b651696f75b18694a4ed72ceb08c19690b74dbf67d4cc5363a112cbeb2a"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.38/BondoMod-Setup-0.2.38.exe",
+    "fileName": "BondoMod-Setup-0.2.38.exe",
+    "size": 5323127,
+    "sha256": "2da71d6f39819f48d783e387d9dc0a54e6a84742afb5517d240abac7c7db1929"
   },
-  "signature": "Hn7gjYsm60deoXBj+9jCvt3H5VJC1KdHrPhDjXWlwU81cCF8Omy22+kFDJGE2d+2wPIgK3qqiAMnDW/XLgOdDA=="
+  "signature": "wk/tL0XAEDYJj5WMmMWX+xeJmmP7zOLQubNUq6fXSDWSCp7grxYbgTevU1jaqPc2ZH2qGz0LOkVHVWUhArS5Cg=="
 }
