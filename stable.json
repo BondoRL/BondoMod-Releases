@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.38",
-  "minimumVersion": "0.2.38",
+  "version": "0.2.39",
+  "minimumVersion": "0.2.39",
   "required": false,
-  "publishedAt": "2026-10-23T09:14:32.7871476Z",
-  "notes": "- Instant transparent F2 menu with toggle.\n- Item sharing and player detection restored.\n- Custom Alpha colours stay saved; stock boosts preserved.\n- Restored MMR and fixed optional feature startup.",
-  "changelogNotes": "- Reworked the transparent F2 menu to keep its window surface ready between uses, avoiding repeated native show/hide animations. Press F2 or your configured menu key again to close it. Free users retain access to Plugins, while paid features keep their existing license checks.\n- Re-enabled match-scoped item sharing between BondoMod users for supported vehicle cosmetics, paints, banners and goal explosions. Goal Anthems are excluded. Title and profile-picture sharing remain disabled; local Titles remain available.\n- Added a once-per-match notification when other confirmed BondoMod players are detected. The notification has a spring entrance, a blinking red live indicator, a short ding, a five-second hold and a quick exit. Your own player is not included in the count.\n- Fixed the Custom Alpha Boost catalog validation error and stopped replacing Standard Blue, Purple and Pink. Coloured Alpha uses verified empty catalog slots, while the outgoing boost identity and the shared appearance use Standard. Custom Alpha remains exclusive to Plus.\n- Saved Custom Alpha Boost inventory entries and their HEX colours are restored before the next game launch, without requiring another spawn. Removing a saved boost also removes it from the next restoration. Original game files are still restored during cleanup.\n- Restored the MMR Display and its local observer connection, including when Item Spawn and Name Changer are turned off.\n- Fixed a Titles cache error caused by an unavailable app reference. Optional overlay and installed-plugin restoration failures now retain their technical details without cancelling the game launch or preventing other overlays from restoring.\n- Updated the item-sharing catalog bounds for the current game catalog and retained real items that overlapped IDs used by an older Alpha test. The current public-version diagnostic check found no reports for 0.2.37.\n- The app update checker displays four short notes; Discord and GitHub use these detailed release notes. Automated sharing checks passed; a fresh two-client online sharing test was not performed for this release.",
+  "publishedAt": "2026-10-24T18:19:44.4639846Z",
+  "notes": "- Improved F2 menu reliability.\n- Optional match profile picture sharing.\n- Own Titles retained; Title sharing removed.\n- Automatic maintenance lock for new RL versions.",
+  "changelogNotes": "- Fixed the F2 menu rejecting keypresses when its cached foreground status lagged behind Rocket League. The input helper now queries the foreground process with limited access rights, and the menu can request a fresh check without launching another process. A passive input fallback handles unavailable global shortcuts. The transparent, preloaded menu and same-key close behavior remain available.\n- Added optional, match-only profile picture sharing with separate Steam/Epic controls, all off by default. Sharing connections are prepared only through Launch RL after opting in. Turning sharing off closes its listener and revokes peer access; the next closed-game UI preparation uses local-only resources. Steam retains its official own avatar. Own Epic profile pictures keep their full 512px image quality.\n- Removed peer Title sharing and its native adapters from the release. Your own normal Titles and Plus Custom Titles remain client-sided and visible through the existing local display.\n- Hardened profile picture teardown by retaining in-flight loaders, bitmap libraries and displayed textures for their owning movie's lifetime. Immutable resources are reused and their number is bounded. The legacy frame callback that dereferenced native avatar rows is now inert. Game class layouts, constructors and unrelated graphics remain unchanged.\n- Added a full-app maintenance lock for unrecognized installed Rocket League executables. All detected installations and the saved selection are checked at startup, and the selected game is checked again before Launch RL. The supported Steam/Epic builds are shipped with the app. BondoMod update checks remain accessible while locked.\n- Improved cross-version session recovery and crash diagnostics. Optional portrait preparation failures produce a feature warning instead of blocking Rocket League. Unknown game UI files are still rejected rather than overwritten.\n- Preserved item spawning, item sharing, presets, local Titles and Plus-only coloured Alpha Boost behavior. Profile picture and Title sharing do not enter the item-sharing payload.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.38/bondo-mod-0.2.38-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.38-x64.nsis.7z",
-    "size": 231226648,
-    "sha256": "c1495f419e71cbf0a6c5471e68055c4e13499e5d5d2546402d7304526939e35d"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.39/bondo-mod-0.2.39-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.39-x64.nsis.7z",
+    "size": 237587027,
+    "sha256": "8b97d3686f13b684afd983982224e797a69f19b868386fbc2fa8761639021ca4"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.38/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.39/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
-    "size": 76800,
-    "sha256": "06f9a1395099a873f6e926ef2b4765e337cd22fea59c2f4033fc024e23aa20eb"
+    "size": 79360,
+    "sha256": "8d087cd1d8b204a671e512a50b5ad2364bc858bb69e3143ef9cd4cac6925ccf4"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.38/BondoMod-Setup-0.2.38.exe",
-    "fileName": "BondoMod-Setup-0.2.38.exe",
-    "size": 5323127,
-    "sha256": "2da71d6f39819f48d783e387d9dc0a54e6a84742afb5517d240abac7c7db1929"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.39/BondoMod-Setup-0.2.39.exe",
+    "fileName": "BondoMod-Setup-0.2.39.exe",
+    "size": 5324956,
+    "sha256": "e7bbd53269c9f02d404084facc2ac8b4311d8affef94d55defbe0bba15ddcae1"
   },
-  "signature": "wk/tL0XAEDYJj5WMmMWX+xeJmmP7zOLQubNUq6fXSDWSCp7grxYbgTevU1jaqPc2ZH2qGz0LOkVHVWUhArS5Cg=="
+  "signature": "M2CSlVwk0xP8XSZ3QIyFML0pPqGSpHigTn4im7SpiOUYAZD6LjHsNAl/GClk+oEBexn1aiXmaS70A2WUPDZbDg=="
 }
