@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.40",
-  "minimumVersion": "0.2.40",
-  "required": true,
-  "publishedAt": "2026-11-06T14:53:30.9626482Z",
-  "notes": "- Redesigned launcher and plugin windows.\n- Live Wheel Camber and Underglow controls.\n- Rocket League update and launch fixes.\n- Improved title loading and diagnostics.",
-  "changelogNotes": "- Rebuilt the launcher around a smaller, simpler interface with selectable accent colours, a centred Launch Rocket League action, connection and game status, and an integrated updater. Settings now use General, Design and Other sections. The selected accent also applies to the in-game menu and feature notices.\n- Added separate front and rear Wheel Camber controls and local Underglow colour and strength controls. Changes apply after releasing a slider, and saved visual preferences return on the next prepared game session. Verified preparation is cached for later launches.\n- Updated support for Rocket League v2.79 and corrected the Windows profile redirection that could leave Car controls waiting for a connection. The game receiver now uses the verified physical command-file location while profile and cache safety checks retain their intended directory boundaries.\n- Fixed recovery of BondoMod-owned game changes between app profiles and test versions. Network, Alpha Boost and Car layers restore in the correct order using their original backups and exact file hashes. Recovery no longer depends on the disabled profile-sharing feature, and unrelated or unrecognized game changes remain protected.\n- Improved custom title and coloured Alpha Boost loading with a fresh local configuration cache key for each launch. This avoids deleting Rocket League cache files protected by Windows Controlled Folder Access. Local title display is checked after session recovery and before Car preparation; existing official titles and boost products are preserved.\n- Simplified the in-game Items, Titles, Car, Presets and Plugins pages and plugin windows. Item Swapper has a larger catalogue view. Delete items supports selecting individual BondoMod items or confirming removal of all spawned items, without deleting officially owned items.\n- Added voluntary diagnostics to Settings â†’ Other, with explicit recording consent, early stop/send controls and a report reference. Added a small app-version link to GitHub at the bottom right. Removed the old setup wizard while retaining Welcome to BondoMod and installation detection in Settings.\n- Moved account sign-in and management to the BondoMod website with a return to the desktop app. Item Spawn starts enabled for a new profile and preserves an explicit On or Off choice across restarts. Profile-picture reception and peer Title sharing remain unavailable; existing local profile pictures and local titles are retained. The previous full-app game-version maintenance lock is disabled, while per-feature package verification remains enforced.",
+  "version": "0.2.41",
+  "minimumVersion": "0.2.41",
+  "required": false,
+  "publishedAt": "2026-11-07T15:23:07.7390946Z",
+  "notes": "- Cleaner Car menu with live rainbow colours.\n- Faster PlayStation controller overlay.\n- Improved F2 opening and recovery.\n- Fixed saved switches and Alpha Boost effects.",
+  "changelogNotes": "- Reorganized the Car menu into Wheels, Body and Effects with a simpler layout and a remembered selection.\n- Added live body, primary/secondary decal, wheel and boost colours with optional rainbow modes. Boost colours also update the garage preview.\n- Improved headlight colours and added small coloured lights around the headlight covers.\n- Improved F2 input handling, held-key protection and recovery when the transparent menu fails to load. The menu follows the game's display and restores from a minimized state.\n- Reduced PlayStation controller overlay latency by continuously reading USB/Bluetooth reports and displaying the latest state. Device discovery no longer blocks controller polling.\n- Fixed Item Spawn and Underglow switches reverting or showing stale states across windows and restarts.\n- Fixed stale Rainbow Alpha Boost effects after equipping another boost and improved its inventory name and thumbnail.\n- Removed Clip Clipper from the app and its bundled recording tools.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.40/bondo-mod-0.2.40-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.40-x64.nsis.7z",
-    "size": 386103749,
-    "sha256": "9cf80c7bc25cfd1ca49101c92abde98e63d46467cdb4b0edd8b5f5b422f3c4d0"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.41/bondo-mod-0.2.41-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.41-x64.nsis.7z",
+    "size": 360308915,
+    "sha256": "12841b6370f65c7d4c8ba5cfa518f8c77b7c39e388ccb5520b3c0661340bd036"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.40/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.41/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 79360,
-    "sha256": "435001f5200409129bbd463bc124ff9fbc4ae790816548c8552977d15889347a"
+    "sha256": "df5d1226d01f1eeb946bb2a616d7ca931952b8b3e04cf5d5e4fe935564497373"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.40/BondoMod-Setup-0.2.40.exe",
-    "fileName": "BondoMod-Setup-0.2.40.exe",
-    "size": 5325567,
-    "sha256": "a8b6ff0cf5e8551313b373ef9f1cbfcd1212f199b7a8ae8edd8b1276241482ab"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.41/BondoMod-Setup-0.2.41.exe",
+    "fileName": "BondoMod-Setup-0.2.41.exe",
+    "size": 5325917,
+    "sha256": "c42f3821de0c97d59fc95f78ab9bb287257488bb46d9fc4229adef950b6c65ab"
   },
-  "signature": "yt3CftuSTiLzrA5xCtacfNiCnpQBEeuM2LjwR4/mhbJuhjs7azoaa3fp+d8hVRO8fu8A5iKmaVBzvhPyw16sDQ=="
+  "signature": "AXr01KRQvfnlQgxz+o1CT9Sdgn2gAyM5L3KpQraQfr7uLY7FqeFEkMtnoUEpwyERel4ntyA65SJz3GoA/WsbDw=="
 }
