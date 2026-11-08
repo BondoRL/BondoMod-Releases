@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.41",
-  "minimumVersion": "0.2.41",
+  "version": "0.2.42",
+  "minimumVersion": "0.2.42",
   "required": false,
-  "publishedAt": "2026-11-07T15:23:07.7390946Z",
-  "notes": "- Cleaner Car menu with live rainbow colours.\n- Faster PlayStation controller overlay.\n- Improved F2 opening and recovery.\n- Fixed saved switches and Alpha Boost effects.",
-  "changelogNotes": "- Reorganized the Car menu into Wheels, Body and Effects with a simpler layout and a remembered selection.\n- Added live body, primary/secondary decal, wheel and boost colours with optional rainbow modes. Boost colours also update the garage preview.\n- Improved headlight colours and added small coloured lights around the headlight covers.\n- Improved F2 input handling, held-key protection and recovery when the transparent menu fails to load. The menu follows the game's display and restores from a minimized state.\n- Reduced PlayStation controller overlay latency by continuously reading USB/Bluetooth reports and displaying the latest state. Device discovery no longer blocks controller polling.\n- Fixed Item Spawn and Underglow switches reverting or showing stale states across windows and restarts.\n- Fixed stale Rainbow Alpha Boost effects after equipping another boost and improved its inventory name and thumbnail.\n- Removed Clip Clipper from the app and its bundled recording tools.",
+  "publishedAt": "2026-11-08T21:07:49.6472854Z",
+  "notes": "- Cleaner launcher and integrated features.\n- Custom Name and online chat fixed.\n- F2 recovery and overlay dragging improved.\n- Platform input bindings restored.",
+  "changelogNotes": "- Reorganized the launcher into Launch, Profile, Settings, Player Profile, Custom Content, Car and Plugins, keeping live overlay controls in the F2 menu.\n- Integrated Custom Cars, Ball Speed, FPS, Spotify, keyboard/mouse and controller overlays into BondoMod. Optional plugins remain available separately.\n- Added custom banners with a centered crop preview and moved Custom Cars into Custom Content. Menu background changes remain unavailable while development continues.\n- Restored Custom Name in matches. Plus users can enable server-visible names; local names remain available separately. Fixed team names being changed and the account lookup that prevented text chat from opening.\n- Fixed the overlay position editor, added an independent Done control and retained saved positions. Overlays follow Rocket League's running state without losing their enabled settings.\n- Simplified overlay controls and restored keyboard/mouse and controller binding recording for Platform Display.\n- Improved transparent F2 menu rendering, focus handling and recovery. Added a Windows desktop rendering check covering repeated opening and closing.\n- Added taillight colour controls and preserved existing live Car customisation settings.\n- Removed retired plugin entries and kept local titles, items and presets available through the integrated menu.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.41/bondo-mod-0.2.41-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.41-x64.nsis.7z",
-    "size": 360308915,
-    "sha256": "12841b6370f65c7d4c8ba5cfa518f8c77b7c39e388ccb5520b3c0661340bd036"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.42/bondo-mod-0.2.42-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.42-x64.nsis.7z",
+    "size": 336153987,
+    "sha256": "2a18212d5bea3a5621f346cc4310df55f60526524488a05c4c4bc2427b2ed95b"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.41/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.42/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 79360,
-    "sha256": "df5d1226d01f1eeb946bb2a616d7ca931952b8b3e04cf5d5e4fe935564497373"
+    "sha256": "52f4afd208f1c7fb204d6c1edf39169669509f4d351d70268dd0ba0ff88d8666"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.41/BondoMod-Setup-0.2.41.exe",
-    "fileName": "BondoMod-Setup-0.2.41.exe",
-    "size": 5325917,
-    "sha256": "c42f3821de0c97d59fc95f78ab9bb287257488bb46d9fc4229adef950b6c65ab"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.42/BondoMod-Setup-0.2.42.exe",
+    "fileName": "BondoMod-Setup-0.2.42.exe",
+    "size": 5331623,
+    "sha256": "c7ac6b1808774336887622dacf425d80031a63d2f226a0553b83bbd27bd4dd8c"
   },
-  "signature": "AXr01KRQvfnlQgxz+o1CT9Sdgn2gAyM5L3KpQraQfr7uLY7FqeFEkMtnoUEpwyERel4ntyA65SJz3GoA/WsbDw=="
+  "signature": "qWQ4rxFJzZ63N32Sd4KkyxFHOHCkK0QrocvpdnhHQA2qt4rdv55uyH/PrnGwbKgAjplR39ltQywx5FOfDpxwDg=="
 }
