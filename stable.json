@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.43",
-  "minimumVersion": "0.2.43",
+  "version": "0.2.44",
+  "minimumVersion": "0.2.44",
   "required": false,
-  "publishedAt": "2026-11-09T19:02:37.6838171Z",
-  "notes": "## BondoMod 0.2.43\n\n- Added an installable Custom Quick Chat plugin with keyboard and controller binding capture.\n- Added a live preview to the Controller Overlay design editor.\n- Updated the F2 overlay tabs, Rank Display controls, and Rank Changer plugin.\n- Added Repair BondoMod in Settings to clean up BondoMod changes before verifying Rocket League files.\n- Added separate Boost and Trail Color controls. Trail Color is in testing.",
-  "changelogNotes": "## BondoMod 0.2.43\n\n- Added an installable Custom Quick Chat plugin with keyboard and controller binding capture.\n- Added a live preview to the Controller Overlay design editor.\n- Updated the F2 overlay tabs, Rank Display controls, and Rank Changer plugin.\n- Added Repair BondoMod in Settings to clean up BondoMod changes before verifying Rocket League files.\n- Added separate Boost and Trail Color controls. Trail Color is in testing.",
+  "publishedAt": "2026-11-09T20:57:51.9635767Z",
+  "notes": "## BondoMod 0.2.44\r\n\r\n- Restored Car controls. Custom Trail Color is temporarily paused.\r\n- Fixed the Repair BondoMod button in Settings.\r\n- Underglow starts off for new players.",
+  "changelogNotes": "## BondoMod 0.2.44\r\n\r\n- Restored Car controls. Custom Trail Color is temporarily paused.\r\n- Fixed the Repair BondoMod button in Settings.\r\n- Underglow starts off for new players.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.43/bondo-mod-0.2.43-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.43-x64.nsis.7z",
-    "size": 336484905,
-    "sha256": "29fad95ad0e44463eeee01bdf49f43e98c30ea5180d3473155a82b6648b1d8dc"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.44/bondo-mod-0.2.44-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.44-x64.nsis.7z",
+    "size": 336465195,
+    "sha256": "e1dc72f0778ac3121bdfb04a11475dbc8c298f4b2df965bdb12e92551735c6dd"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.43/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.44/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 79360,
-    "sha256": "45d93b724eb15078fb3d60566941fc0469205e69217c5f7ecfcf1a5a40f2ab2f"
+    "sha256": "1f4683e7ec6c716f1a5f7c0c57148331392361ec59d596acdbd93f7a77c6b6d6"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.43/BondoMod-Setup-0.2.43.exe",
-    "fileName": "BondoMod-Setup-0.2.43.exe",
-    "size": 5331566,
-    "sha256": "3effdbccfb7b96842125c0878978512492276eb118baeee89c9d3bd29eb4532d"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.44/BondoMod-Setup-0.2.44.exe",
+    "fileName": "BondoMod-Setup-0.2.44.exe",
+    "size": 5331527,
+    "sha256": "ef4c30def9962adce111082280cac6c40887d3e4409af30a013ed1a76d199b55"
   },
-  "signature": "d+PdWWuDjJQh7NMOHdxLyz7seMdrU8h4g6i8FZF9gHycGQ+dVMRFUemYKYPhSt6v80uvVlxoBL7BAp3rfEsHCg=="
+  "signature": "pLvHr3+Rcf1lZb1lmqTWLSEP9whrZKZ3LItm3ZRxm3VgJg0+o7YgKHg7HbjrUg9EigIfdIOOPbWeW46ShL9zCA=="
 }
