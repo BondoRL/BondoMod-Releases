@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.42",
-  "minimumVersion": "0.2.42",
+  "version": "0.2.43",
+  "minimumVersion": "0.2.43",
   "required": false,
-  "publishedAt": "2026-11-08T21:07:49.6472854Z",
-  "notes": "- Cleaner launcher and integrated features.\n- Custom Name and online chat fixed.\n- F2 recovery and overlay dragging improved.\n- Platform input bindings restored.",
-  "changelogNotes": "- Reorganized the launcher into Launch, Profile, Settings, Player Profile, Custom Content, Car and Plugins, keeping live overlay controls in the F2 menu.\n- Integrated Custom Cars, Ball Speed, FPS, Spotify, keyboard/mouse and controller overlays into BondoMod. Optional plugins remain available separately.\n- Added custom banners with a centered crop preview and moved Custom Cars into Custom Content. Menu background changes remain unavailable while development continues.\n- Restored Custom Name in matches. Plus users can enable server-visible names; local names remain available separately. Fixed team names being changed and the account lookup that prevented text chat from opening.\n- Fixed the overlay position editor, added an independent Done control and retained saved positions. Overlays follow Rocket League's running state without losing their enabled settings.\n- Simplified overlay controls and restored keyboard/mouse and controller binding recording for Platform Display.\n- Improved transparent F2 menu rendering, focus handling and recovery. Added a Windows desktop rendering check covering repeated opening and closing.\n- Added taillight colour controls and preserved existing live Car customisation settings.\n- Removed retired plugin entries and kept local titles, items and presets available through the integrated menu.",
+  "publishedAt": "2026-11-09T19:02:37.6838171Z",
+  "notes": "## BondoMod 0.2.43\n\n- Added an installable Custom Quick Chat plugin with keyboard and controller binding capture.\n- Added a live preview to the Controller Overlay design editor.\n- Updated the F2 overlay tabs, Rank Display controls, and Rank Changer plugin.\n- Added Repair BondoMod in Settings to clean up BondoMod changes before verifying Rocket League files.\n- Added separate Boost and Trail Color controls. Trail Color is in testing.",
+  "changelogNotes": "## BondoMod 0.2.43\n\n- Added an installable Custom Quick Chat plugin with keyboard and controller binding capture.\n- Added a live preview to the Controller Overlay design editor.\n- Updated the F2 overlay tabs, Rank Display controls, and Rank Changer plugin.\n- Added Repair BondoMod in Settings to clean up BondoMod changes before verifying Rocket League files.\n- Added separate Boost and Trail Color controls. Trail Color is in testing.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.42/bondo-mod-0.2.42-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.42-x64.nsis.7z",
-    "size": 336153987,
-    "sha256": "2a18212d5bea3a5621f346cc4310df55f60526524488a05c4c4bc2427b2ed95b"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.43/bondo-mod-0.2.43-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.43-x64.nsis.7z",
+    "size": 336484905,
+    "sha256": "29fad95ad0e44463eeee01bdf49f43e98c30ea5180d3473155a82b6648b1d8dc"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.42/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.43/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 79360,
-    "sha256": "52f4afd208f1c7fb204d6c1edf39169669509f4d351d70268dd0ba0ff88d8666"
+    "sha256": "45d93b724eb15078fb3d60566941fc0469205e69217c5f7ecfcf1a5a40f2ab2f"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.42/BondoMod-Setup-0.2.42.exe",
-    "fileName": "BondoMod-Setup-0.2.42.exe",
-    "size": 5331623,
-    "sha256": "c7ac6b1808774336887622dacf425d80031a63d2f226a0553b83bbd27bd4dd8c"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.43/BondoMod-Setup-0.2.43.exe",
+    "fileName": "BondoMod-Setup-0.2.43.exe",
+    "size": 5331566,
+    "sha256": "3effdbccfb7b96842125c0878978512492276eb118baeee89c9d3bd29eb4532d"
   },
-  "signature": "qWQ4rxFJzZ63N32Sd4KkyxFHOHCkK0QrocvpdnhHQA2qt4rdv55uyH/PrnGwbKgAjplR39ltQywx5FOfDpxwDg=="
+  "signature": "d+PdWWuDjJQh7NMOHdxLyz7seMdrU8h4g6i8FZF9gHycGQ+dVMRFUemYKYPhSt6v80uvVlxoBL7BAp3rfEsHCg=="
 }
