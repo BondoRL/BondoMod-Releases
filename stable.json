@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.44",
-  "minimumVersion": "0.2.44",
+  "version": "0.2.45",
+  "minimumVersion": "0.2.45",
   "required": false,
-  "publishedAt": "2026-11-09T20:57:51.9635767Z",
-  "notes": "## BondoMod 0.2.44\r\n\r\n- Restored Car controls. Custom Trail Color is temporarily paused.\r\n- Fixed the Repair BondoMod button in Settings.\r\n- Underglow starts off for new players.",
-  "changelogNotes": "## BondoMod 0.2.44\r\n\r\n- Restored Car controls. Custom Trail Color is temporarily paused.\r\n- Fixed the Repair BondoMod button in Settings.\r\n- Underglow starts off for new players.",
+  "publishedAt": "2026-11-16T17:05:17.8192436Z",
+  "notes": "## BondoMod 0.2.45\n\n- Added a Home page with session time, Auto GG, Discord Rich Presence, menu backgrounds, and ticker controls.\n- Added Ping Spoof controls with configurable ranges and client-side or Plus server-side mode.\n- Added Extended Camera Settings and moved Macros into the plugin manager.\n- Reorganized the F2 menu and simplified overlay controls, with drag positioning and a controller design preview.\n- Fixed item spawning and immediate item deletion, and improved Rank Display timing and placement.\n- Fixed launch preparation and recovery behavior for bundled game UI controls.",
+  "changelogNotes": "## BondoMod 0.2.45\n\n- Added a Home page with session time, Auto GG, Discord Rich Presence, menu backgrounds, and ticker controls.\n- Added Ping Spoof controls with configurable ranges and client-side or Plus server-side mode.\n- Added Extended Camera Settings and moved Macros into the plugin manager.\n- Reorganized the F2 menu and simplified overlay controls, with drag positioning and a controller design preview.\n- Fixed item spawning and immediate item deletion, and improved Rank Display timing and placement.\n- Fixed launch preparation and recovery behavior for bundled game UI controls.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.44/bondo-mod-0.2.44-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.44-x64.nsis.7z",
-    "size": 336465195,
-    "sha256": "e1dc72f0778ac3121bdfb04a11475dbc8c298f4b2df965bdb12e92551735c6dd"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.45/bondo-mod-0.2.45-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.45-x64.nsis.7z",
+    "size": 336612730,
+    "sha256": "d4afba05c37134c0047769e2c9054e688738b1f8ed4735475a5a242694ec9098"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.44/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.45/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 79360,
-    "sha256": "1f4683e7ec6c716f1a5f7c0c57148331392361ec59d596acdbd93f7a77c6b6d6"
+    "sha256": "a5c872501c1d9c29425e8729685a926823380e5fd92f386d39aa5d6071974bbc"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.44/BondoMod-Setup-0.2.44.exe",
-    "fileName": "BondoMod-Setup-0.2.44.exe",
-    "size": 5331527,
-    "sha256": "ef4c30def9962adce111082280cac6c40887d3e4409af30a013ed1a76d199b55"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.45/BondoMod-Setup-0.2.45.exe",
+    "fileName": "BondoMod-Setup-0.2.45.exe",
+    "size": 5332253,
+    "sha256": "e0bfcf272526e6f54c89766fdc36c8f16be7ad03f0b3e38fe9e9269219427faa"
   },
-  "signature": "pLvHr3+Rcf1lZb1lmqTWLSEP9whrZKZ3LItm3ZRxm3VgJg0+o7YgKHg7HbjrUg9EigIfdIOOPbWeW46ShL9zCA=="
+  "signature": "I6QQCFpwhGpgbh44o4/OTJMsYI3KyE1LtNmNXjTCOVI77V3adl79WaG4jf1G4NjkLctZyYWazMD9Vwn3TY96BA=="
 }
