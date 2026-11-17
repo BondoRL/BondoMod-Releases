@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.45",
-  "minimumVersion": "0.2.45",
+  "version": "0.2.46",
+  "minimumVersion": "0.2.46",
   "required": false,
-  "publishedAt": "2026-11-16T17:05:17.8192436Z",
-  "notes": "## BondoMod 0.2.45\n\n- Added a Home page with session time, Auto GG, Discord Rich Presence, menu backgrounds, and ticker controls.\n- Added Ping Spoof controls with configurable ranges and client-side or Plus server-side mode.\n- Added Extended Camera Settings and moved Macros into the plugin manager.\n- Reorganized the F2 menu and simplified overlay controls, with drag positioning and a controller design preview.\n- Fixed item spawning and immediate item deletion, and improved Rank Display timing and placement.\n- Fixed launch preparation and recovery behavior for bundled game UI controls.",
-  "changelogNotes": "## BondoMod 0.2.45\n\n- Added a Home page with session time, Auto GG, Discord Rich Presence, menu backgrounds, and ticker controls.\n- Added Ping Spoof controls with configurable ranges and client-side or Plus server-side mode.\n- Added Extended Camera Settings and moved Macros into the plugin manager.\n- Reorganized the F2 menu and simplified overlay controls, with drag positioning and a controller design preview.\n- Fixed item spawning and immediate item deletion, and improved Rank Display timing and placement.\n- Fixed launch preparation and recovery behavior for bundled game UI controls.",
+  "publishedAt": "2026-11-17T15:47:34.5653190Z",
+  "notes": "Restored the tested menu backgrounds and BondoMod ticker in the packaged app, with verified game UI resources included.",
+  "changelogNotes": "## BondoMod 0.2.46\n\n- Restored the integrated Main Menu Background selector in packaged builds, including the tested Premium Garage scene.\n- Restored the built-in BondoMod ticker and Plus custom ticker controls in packaged builds.\n- Bundled and hash-verified the tested menu receiver assets and game UI helper resources required by the launcher.",
   "artifact": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.45/bondo-mod-0.2.45-x64.nsis.7z",
-    "fileName": "bondo-mod-0.2.45-x64.nsis.7z",
-    "size": 336612730,
-    "sha256": "d4afba05c37134c0047769e2c9054e688738b1f8ed4735475a5a242694ec9098"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.46/bondo-mod-0.2.46-x64.nsis.7z",
+    "fileName": "bondo-mod-0.2.46-x64.nsis.7z",
+    "size": 339132938,
+    "sha256": "113da1e0d54424e679babab5e501d3f3c347e2f340a262b85333b33782c64cc7"
   },
   "installer": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.45/BondoMod-Installer.exe",
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.46/BondoMod-Installer.exe",
     "fileName": "BondoMod-Installer.exe",
     "size": 79360,
-    "sha256": "a5c872501c1d9c29425e8729685a926823380e5fd92f386d39aa5d6071974bbc"
+    "sha256": "8499da9a379db0bbe9ef3ddba55d0893014acb1b28457506333ff1738413c146"
   },
   "setup": {
-    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.45/BondoMod-Setup-0.2.45.exe",
-    "fileName": "BondoMod-Setup-0.2.45.exe",
-    "size": 5332253,
-    "sha256": "e0bfcf272526e6f54c89766fdc36c8f16be7ad03f0b3e38fe9e9269219427faa"
+    "url": "https://github.com/BondoRL/BondoMod-Releases/releases/download/v0.2.46/BondoMod-Setup-0.2.46.exe",
+    "fileName": "BondoMod-Setup-0.2.46.exe",
+    "size": 5332157,
+    "sha256": "832803c628a56a97baa91cc6483e9a6659e5f0b792b4a465d729784b1a95f65f"
   },
-  "signature": "I6QQCFpwhGpgbh44o4/OTJMsYI3KyE1LtNmNXjTCOVI77V3adl79WaG4jf1G4NjkLctZyYWazMD9Vwn3TY96BA=="
+  "signature": "/+d5Y2mFmhqJhsw/TRs+oFKRSq7ktBfLk0Cjr6m/5WlFA1cRe0JxZRsDcoC92GizjXWCj4tJQN8lwinQZyKYCQ=="
 }
